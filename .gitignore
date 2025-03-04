@@ -5,12 +5,6 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
-#######  CUSTOM #######
-/web/modules/contrib
-/web/themes/contrib
-/web/libraries
-!/web/sites/default/files/README.md
-
 #######  DEFAULT #######
 .editorconfig
 
@@ -69,3 +63,11 @@
 /drush
 /drupal.phar
 /drupal
+
+#######  CUSTOM #######
+/web/modules/contrib
+/web/themes/contrib
+/web/libraries
+!/web/sites/default/files/README.md
+
+
