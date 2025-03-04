@@ -3,6 +3,49 @@
 // phpcs:ignoreFile
 
 /**
+ *  ##     ##   #######    ######     ######    ######      ###     ##    ##
+ *  ##     ##  ##     ##  ##    ##   ##    ##  ##    ##    ## ##    ###   ##
+ *  ##     ##  ##     ##  ##         ##        ##         ##   ##   ####  ##
+ *  #########  ##     ##  ##   ####   ######   ##        ##     ##  ## ## ##
+ *  ##     ##  ##     ##  ##    ##         ##  ##        #########  ##  ####
+ *  ##     ##  ##     ##  ##    ##   ##    ##  ##    ##  ##     ##  ##   ###
+ *  ##     ##   #######    ######     ######    ######   ##     ##  ##    ##
+ *
+ * All HOGSCAN websites use an identical settings.php file.
+ *
+ */
+
+/** @var string $app_root */
+/** @var string $site_path */
+$app_root_parent = dirname($app_root);
+
+
+$db_host  = getenv('HS_DB_HOST');
+$db_port  = getenv('HS_DB_PORT');
+$db_user  = getenv('HS_DB_USER');
+$db_pass  = getenv('HS_DB_PASS');
+
+// S3FS Credentials
+$s3fs_access_key	= getenv('HS_S3FS_KEY');
+$s3fs_secret_key	= getenv('HS_S3FS_SEC');
+
+// Google Analytics Credentials
+$ga_id  = getenv('HS_GA4_ID');
+$ga_key = getenv('HS_GA4_SEC');
+
+$chapter_domain = "hogchapters.local";
+
+$settings['trusted_host_patterns'] = [
+  '^+\.local$',
+  '^.+\.hogscan\.com$',
+  '^.+\.hogchapters\.com$',
+  '^hogchapters\.com$',
+  "^$chapter_domain$",
+  "^.+\.$chapter_domain$",
+];
+
+
+/**
  * @file
  * Drupal site-specific configuration file.
  *
@@ -58,7 +101,7 @@
  * implementations with custom ones.
  */
 
-$chapter_domain = "example.com";
+$chapter_domain = "hogchapters.local";
 
 $settings['trusted_host_patterns'] = [
 	'^+\.local$',
@@ -906,14 +949,16 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 $databases['default']['default'] = array (
   'database' => 'drupal',
-  'username' => 'drupaluser',
-  'password' => 'hoof5&vises',
+  'username' => $db_user,
+  'password' => $db_pass,
   'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
+  'host' => $db_host,
+  'port' => $db_port,
   'isolation_level' => 'READ COMMITTED',
   'driver' => 'mysql',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_8gYfEiOYIt1hpW8mvuD2DeOHm_Ms3fsPVgJJSOFHCCr0FgGhUfHz86RWIUKl9vCOunUTzBIkmg/sync';
+
+$settings['php_storage']['twig']['directory'] = $app_root_parent . '/storage/php';
+$settings['config_sync_directory'] = $app_root_parent . '/storage/sync/default';

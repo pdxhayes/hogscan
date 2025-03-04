@@ -65,6 +65,9 @@
 /drupal
 
 #######  CUSTOM #######
+.DS_Store
+.idea
+/storage/php/twig
 /web/modules/contrib
 /web/themes/contrib
 /web/libraries
