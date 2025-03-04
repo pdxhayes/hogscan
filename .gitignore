@@ -9,13 +9,14 @@
 /web/modules/contrib
 /web/themes/contrib
 /web/libraries
+!/web/sites/default/files/README.md
 
 #######  DEFAULT #######
 .editorconfig
 
 # Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
+#/web/sites/*/*settings*.php
+#/web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
 /web/sites/*/files
