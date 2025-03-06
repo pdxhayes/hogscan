@@ -13,8 +13,8 @@
  *
  */
 
-print_r("0000.hogchapters.com");
-exit;
+//print_r("0000.hogchapters.local");
+//exit;
 
 /********************************************************************
  *
@@ -102,7 +102,7 @@ unset($hogscan_settings);
  ********************************************************************/
 
 // last piece for database config
-$db_name = 'hs_' . $chapter_number;
+$db_name = 'chapter_' . $chapter_number;
 
 // Set a long expiry on the activation and password reset links.
 $config['user.settings']['password_reset_timeout'] = 2750000;
@@ -981,8 +981,8 @@ $databases['default']['default'] = array (
  *
  * Keep this code block at the end of this file to take full effect.
  */
-if('PROD' != getenv('HS_APP_ENV')) {
- if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-   include $app_root . '/' . $site_path . '/settings.local.php';
- }
-}
+//if('PROD' != getenv('HS_APP_ENV')) {
+// if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+//   include $app_root . '/' . $site_path . '/settings.local.php';
+// }
+//}
