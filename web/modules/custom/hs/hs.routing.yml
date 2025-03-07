@@ -1,0 +1,30 @@
+##
+#
+# HOGSCAN Routing
+# Defines API endpoint routing for hogscan api.
+#
+# TODO: Add appropriate access requirements
+#
+##
+
+##
+#   AJAX calls used by forms
+##
+ajax.unique_hogid:
+  path: '/ajax/unique_hogid'
+  defaults:
+    _controller: '\Drupal\hs\Controller\HsAjaxController::unique_hogid'
+    _title: ''
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'
+
+ajax.unique_email:
+  path: '/ajax/unique_email'
+  defaults:
+    _controller: '\Drupal\hs\Controller\HsAjaxController::unique_email'
+    _title: ''
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'
+

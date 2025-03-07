@@ -1,0 +1,27 @@
+hs_chapter_logo_form:
+  version: 0.0002
+  css:
+    base:
+      misc/css/logo.css: {}
+  js:
+    misc/js/logo.js: {}
+  dependencies:
+    - core/jquery
+
+hs_theme_settings_form:
+  version: 0.0027
+  css:
+    base:
+      misc/js/farbtastic/farbtastic.css: {}
+      misc/css/theme_settings.css: {}
+  js:
+    misc/js/farbtastic/farbtastic.js: {}
+    misc/js/theme_settings.js: {}
+  dependencies:
+    - core/jquery
+
+chapter_menu_css:
+  version: 0.0001
+  css:
+    base:
+      misc/css/chapter_menu.css: {}

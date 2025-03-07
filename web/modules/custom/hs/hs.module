@@ -1,0 +1,14 @@
+<?php
+
+/*
+ *  This module defines features for HOG[SCAN]
+ *  Branch test.
+ */
+ 
+ /*
+  * Some "old school" hooks.
+  */
+  include("include/hooks.inc");
+  include("include/forms.inc");
+  include("include/tokens.inc");
+  

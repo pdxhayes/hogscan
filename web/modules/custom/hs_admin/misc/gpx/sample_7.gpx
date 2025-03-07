@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx creator="Harley-Davidson Ride Planner" format="3.0" version="1.1" xsi:schemaLocation="https://www.nng.com/routing/xmlschemas/gpxext/v1 https://www.nng.com/routing/xmlschemas/gpxext/v1/gpxext.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxs="https://www.nng.com/routing/xmlschemas/gpxext/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <wpt lat="48.4779023" lon="-122.3224265">
+        <name>START - North Cascades Scenic Highway</name>
+        <cmt>START - North Cascades Scenic Highway</cmt>
+        <desc>START - North Cascades Scenic Highway</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>E Magnolia Ave</gpxs:roadName>
+                <gpxs:roadNameLong>E Magnolia Ave Burlington WA</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <wpt lat="48.6734778" lon="-121.2614357">
+        <name>CHECKPOINT - sign at Visitor Center or at either end of National Park on WA-20 </name>
+        <cmt>CHECKPOINT - sign at Visitor Center or at either end of National Park on WA-20 </cmt>
+        <desc>CHECKPOINT - sign at Visitor Center or at either end of National Park on WA-20 </desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>Newhalem Creek Rd</gpxs:roadName>
+                <gpxs:roadNameLong>Newhalem Creek Rd Marblemount WA</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <wpt lat="48.3652904" lon="-120.1223338">
+        <name>END - North Cascades Scenic Highway</name>
+        <cmt>END - North Cascades Scenic Highway</cmt>
+        <desc>END - North Cascades Scenic Highway</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>N Methow Valley Hwy</gpxs:roadName>
+                <gpxs:roadNameLong>N Methow Valley Hwy Twisp WA</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <rte>
+        <name>NORTH CASCADES SCE   1</name>
+        <desc>Spectacular scenery and great riding through the North Cascades Mountains.</desc>
+        <extensions>
+            <gpxs:rteOpts>
+                <gpxs:allowHighways>true</gpxs:allowHighways>
+                <gpxs:allowTollRoads>true</gpxs:allowTollRoads>
+            </gpxs:rteOpts>
+        </extensions>
+        <rtept lat="48.4777844" lon="-122.3224425">
+            <name>START - North Cascades Scenic Highway</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="48.4777844" lon="-122.3224425">
+                    <gpxs:ptGuidanceText>Head toward N Regent St on North Cascades Scenic Hwy (WA-20). Go for 4.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>6707.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>63.591855934977275</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4781840" lon="-122.3212284">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>63.591855934977275</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4918550" lon="-122.2822565">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>60.49156699205332</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5063660" lon="-122.2440791">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>20.211227461306976</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5072780" lon="-122.2438753">
+                    <gpxs:ptGuidanceText>Pass 2 roundabouts and continue on W Moore St (WA-9/WA-20). Go for 1.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>1699.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>74.70352879689364</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5079646" lon="-122.2439504">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>0.21709681843606177</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5105087" lon="-122.2372122">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>90.25223959553097</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5104791" lon="-122.2270747">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>North Cascades Scenic Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>90.25223959553097</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5104752" lon="-122.2257221">
+                    <gpxs:ptGuidanceText>Continue on Moore St (WA-20). Go for 53.7 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>86375.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>88.6001767994029</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5104971" lon="-122.2243665">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>88.6001767994029</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5300269" lon="-122.0015161">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>99.15418422170234</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5388919" lon="-121.7780440">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>116.49866692466776</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4902688" lon="-121.5761389">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>53.62184873490594</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5669018" lon="-121.4100772">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>4.359298764332607</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.6737478" lon="-121.2627374">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Moore St</gpxs:roadName>
+                        <gpxs:travellingDir>100.87145817931429</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.6734569" lon="-121.2614572">
+                    <gpxs:ptGuidanceText>Arrive at Newhalem St (WA-20). Your destination is on the left.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>0.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="48.6734569" lon="-121.2614572">
+            <name>CHECKPOINT - sign at Visitor Center or at either end of National Park on WA-20 </name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Newhalem St</gpxs:roadName>
+                </gpxs:ptRoad>
+            </extensions>
+        </rtept>
+    </rte>
+    <rte>
+        <name>NORTH CASCADES SCE   2</name>
+        <desc>Spectacular scenery and great riding through the North Cascades Mountains.</desc>
+        <extensions>
+            <gpxs:rteOpts>
+                <gpxs:allowHighways>true</gpxs:allowHighways>
+                <gpxs:allowTollRoads>true</gpxs:allowTollRoads>
+            </gpxs:rteOpts>
+        </extensions>
+        <rtept lat="48.6734569" lon="-121.2614572">
+            <name>CHECKPOINT - sign at Visitor Center or at either end of National Park on WA-20 </name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Newhalem St</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="48.6734569" lon="-121.2614572">
+                    <gpxs:ptGuidanceText>Head north on Newhalem St (WA-20). Go for 0.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>162.82983440501494</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="48.6730784" lon="-121.2593269">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Newhalem St</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="48.6730784" lon="-121.2593269">
+                    <gpxs:ptGuidanceText>Head north on Newhalem St (WA-20). Go for 0.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>116930.17016559499</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>99.19759409554126</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.6729348" lon="-121.2579840">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>99.19759409554126</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.7088159" lon="-121.0862320">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>73.41980276857151</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.6730814" lon="-120.8782663">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>150.95743946761763</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5297283" lon="-120.7437066">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>135.9417563820905</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5823028" lon="-120.6238076">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>42.76281244947319</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.5781802" lon="-120.3906854">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>145.26259534877602</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4772925" lon="-120.1865415">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Newhalem St</gpxs:roadName>
+                        <gpxs:travellingDir>54.309647237334275</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4778166" lon="-120.1854408">
+                    <gpxs:ptGuidanceText>Turn right onto Riverside Ave (WA-20) toward Okanogan. Go for 0.5 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>736.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 20</gpxs:roadName>
+                        <gpxs:travellingDir>127.49232142880714</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4773142" lon="-120.1843243">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 20</gpxs:roadName>
+                        <gpxs:travellingDir>119.38639595565644</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4759520" lon="-120.1813725">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 20</gpxs:roadName>
+                        <gpxs:travellingDir>114.84889596277151</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4745365" lon="-120.1784701">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 20</gpxs:roadName>
+                        <gpxs:travellingDir>118.02777411371176</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="48.4741151" lon="-120.1772761">
+                    <gpxs:ptGuidanceText>Turn right onto State Route 20 (WA-20). Go for 8.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>13156.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Riverside Ave</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="48.3652936" lon="-120.1224589">
+            <name>END - North Cascades Scenic Highway</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>N Methow Valley Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+            </extensions>
+        </rtept>
+    </rte>
+</gpx>

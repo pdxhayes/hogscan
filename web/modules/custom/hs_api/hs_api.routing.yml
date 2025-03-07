@@ -1,0 +1,172 @@
+##
+#
+# HOGSCAN API Routing
+# Defines API endpoint routing for hogscan api.
+#
+# TODO: Add appropriate access requirements
+#
+##
+
+##
+# Creates a test / debug endpoint
+##
+hs_api.test:
+  path: '/api/test'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsApi::test'
+  methods: [GET,POST,PATCH,DELETE]
+  requirements:
+    _access: 'TRUE'
+
+##
+# Creates an endpoint for the app to determine minimum requirements for
+# current API
+#
+##
+hs_api.app_motd:
+  path: '/api/motd'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsApi::motd'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE' # this call should be public
+
+
+##
+#   Utility endpoint.
+##
+hs_api.get_permission_list:
+  path: '/api/get_permission_list'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsApi::get_permission_list'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE' # this call should be public
+
+
+
+##
+#   Gets a list of Chapter Members
+##
+hs_api.get_member_list:
+  path: '/api/get_member_list'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsApi::get_member_list'
+  methods: [GET]
+  requirements:
+   _access: 'TRUE'
+
+##
+#   Gets a list of Chapter Events
+##
+hs_api.get_events:
+  path: '/api/get_events'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsApi::get_events'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'
+
+
+
+
+
+# Event endpoints
+# GET: event list
+# hs_api.event_list:
+#   path: '/api/json/event/list'
+#   defaults:
+#     _controller: '\Drupal\hs_api\Controller\HsApi::event_list'
+#     _title: ''
+#   methods: [GET, POST, PATCH, DELETE]
+#   requirements:
+#     _role: authenticated
+#
+# # GET: event detail
+# hs_api.event_detail:
+#   path: '/api/json/event/detail'
+#   defaults:
+#     _controller: '\Drupal\hs_api\Controller\HsApi::event_detail'
+#     _title: ''
+#   methods: [GET, POST, PATCH, DELETE]
+#   requirements:
+#     _role: authenticated
+#
+# # POST, DELETE: create, delete event rsvp record
+# hs_api.event_rsvp:
+#   path: '/api/json/event/rsvp'
+#   defaults:
+#     _controller: '\Drupal\hs_api\Controller\HsApi::event_rsvp'
+#     _title: ''
+#   methods: [GET, POST, PATCH, DELETE]
+#   requirements:
+#    _role: authenticated
+#
+# # POST, PATCH, DELETE: create, update, delete event checkin record
+# hs_api.event_checkin:
+#   path: '/api/json/event/checkin'
+#   defaults:
+#     _controller: '\Drupal\hs_api\Controller\HsApi::event_checkin'
+#     _title: ''
+#   methods: [GET, POST, PATCH, DELETE]
+#   requirements:
+#     _role: perform_checkins
+#
+# # POST, PATCH, DELETE: create, update, delete an event record
+# hs_api.event_node:
+#   path: '/api/json/event/node'
+#   defaults:
+#     _controller: '\Drupal\hs_api\Controller\HsApi::event_node'
+#     _title: ''
+#   methods: [GET, POST, PATCH, DELETE]
+#   requirements:
+#     _role: event_admin
+
+
+
+
+
+
+##
+#   General CRUD
+##
+
+# User CRUD
+hs_api.user_crud:
+  path: '/api/crud/user'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsUser::user_crud'
+    _title: ''
+  methods: [GET, POST, PATCH, DELETE]
+  requirements:
+    _role: 'authenticated' # additional access checks will depend on method and user.
+
+# Event CRUD
+hs_api.event_crud:
+  path: '/api/crud/event'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsEvent::event_crud'
+    _title: ''
+  methods: [GET, POST, PATCH, DELETE]
+  requirements:
+    _role: 'authenticated' # additional access checks will depend on method and user.
+
+# Checkin CRUD
+hs_api.checkin_crud:
+  path: '/api/crud/checkin'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsCheckin::checkin_crud'
+    _title: ''
+  methods: [GET, POST, PATCH, DELETE]
+  requirements:
+    _role: 'authenticated' # additional access checks will depend on method and user.
+
+# RSVP CRUD
+hs_api.rsvp_crud:
+  path: '/api/crud/rsvp'
+  defaults:
+    _controller: '\Drupal\hs_api\Controller\HsRsvp::rsvp_crud'
+    _title: ''
+  methods: [GET, POST, PATCH, DELETE]
+  requirements:
+    _role: 'authenticated' # additional access checks will depend on method and user.

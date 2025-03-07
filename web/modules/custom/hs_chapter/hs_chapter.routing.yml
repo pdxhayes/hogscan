@@ -1,0 +1,143 @@
+hs_chapter.chapter_dashboard:
+  path: '/chapter/dashboard'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_dashboard'
+    _title: 'Chapter Dashboard'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.chapter_content:
+  path: '/chapter/content'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_content'
+    _title: 'Chapter Content Menu'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.chapter_members:
+  path: '/chapter/members'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_members'
+    _title: 'Chapter Member Menu'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.chapter_config:
+  path: '/chapter/config'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_config'
+    _title: 'Chapter Configuration Menu'
+  methods: [GET]
+  requirements:
+    _role: 'blog_admin+gallery_admin+event_admin+chapter_challenge_admin+content_admin+send_sms+send_email+member_read+member_admin+website_admin+administrator'
+
+hs_chapter.theme_settings:
+  path: '/chapter/config/theme_settings'
+  defaults:
+    _form: '\Drupal\hs_chapter\Form\ThemeSettingsForm'
+    _title: 'Theme Settings'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.logo_builder:
+  path: '/chapter/config/logo'
+  defaults:
+    _form: '\Drupal\hs_chapter\Form\ChapterLogoForm'
+    _title: 'Chapter Logo Builder'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.config_welcome_email:
+  path: '/chapter/config/welcome_email'
+  defaults:
+    _form: '\Drupal\hs_chapter\Form\WelcomeEmailForm'
+    _title: 'Configure Welcome Email'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.import_csv:
+  path: '/chapter/members/import_csv'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::import_csv'
+    _title: 'Import / Update Roster'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.export_csv:
+  path: '/chapter/members/export_csv'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::export_csv'
+    _title: 'Chapter Configuration Menu'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.chapter_reports:
+  path: '/chapter/reports'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_reports'
+    _title: 'Chapter Reports Menu'
+  methods: [GET]
+  requirements:
+    _role: 'member_read+member_admin+website_admin+administrator'
+
+hs_chapter.chapter_util:
+  path: '/chapter/utilities'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_utilities'
+    _title: 'Chapter Utilities Menu'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.prelaunch_checklist:
+  path: '/chapter/utilities/prelaunch_checklist'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::chapter_utilities'
+    _title: 'Chapter Settings'
+  methods: [GET, POST]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.clear_server_cache:
+  path: '/chapter/utilities/clear_server_cache'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::clear_server_cache'
+    _title: 'Chapter Settings'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.cpanel:
+  path: '/chapter/utilities/cpanel'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::cpanel'
+    _title: 'Chapter Settings'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.webmail:
+  path: '/chapter/utilities/prelaunch_checklist'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterController::webmail'
+    _title: 'Chapter Settings'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'
+
+hs_chapter.help_menu:
+  path: '/chapter/help'
+  defaults:
+    _controller: '\Drupal\hs_chapter\Controller\HsChapterHelp::help_menu'
+    _title: 'Chapter Settings'
+  methods: [GET]
+  requirements:
+    _role: 'website_admin+administrator'

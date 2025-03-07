@@ -1,0 +1,5 @@
+services:
+  hs_api.route_subscriber:
+    class: \Drupal\hs_api\EventSubscriber\HsLoginRouteSubscriber
+    tags:
+      - { name: event_subscriber }

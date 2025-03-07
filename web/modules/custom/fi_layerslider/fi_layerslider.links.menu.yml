@@ -1,0 +1,18 @@
+# Slider menu items definition
+fi_slider.manager:
+  title: 'Layer Sliders'
+  route_name: entity.fi_slider.collection
+  description: 'List Slider entities'
+  parent: system.admin_content
+
+fi_slider.manager.add:
+  title: 'Add Slider'
+  route_name: entity.fi_slider.add_form
+  parent: fi_slider.manager
+
+fi_slider.manager.import:
+  title: 'Import Slider'
+  route_name: fi_slider.import
+  parent: fi_slider.manager
+
+

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx creator="Harley-Davidson Ride Planner" format="3.0" version="1.1" xsi:schemaLocation="https://www.nng.com/routing/xmlschemas/gpxext/v1 https://www.nng.com/routing/xmlschemas/gpxext/v1/gpxext.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxs="https://www.nng.com/routing/xmlschemas/gpxext/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <wpt lat="45.5436455" lon="-122.3815708">
+        <name>Crown Point Hwy</name>
+        <cmt>Crown Point Hwy</cmt>
+        <desc>Crown Point Hwy</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>Crown Point Hwy</gpxs:roadName>
+                <gpxs:roadNameLong>Crown Point Hwy Troutdale OR</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <wpt lat="45.5392700" lon="-122.2445200">
+        <name>Vista House</name>
+        <cmt>Vista House</cmt>
+        <desc>Vista House</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>Address not available</gpxs:roadName>
+                <gpxs:roadNameLong>Corbett OR</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <wpt lat="45.6231881" lon="-121.2134617">
+        <name>3499 W 6th St</name>
+        <cmt>3499 W 6th St</cmt>
+        <desc>3499 W 6th St</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>W 6th St</gpxs:roadName>
+                <gpxs:roadNameLong>W 6th St The Dalles OR</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <rte>
+        <name>HISTORIC COLUMBIA    1</name>
+        <desc>Winds through Columbia River Gorge on the Oregon/Washington borderline following the path of the Columbia River.</desc>
+        <extensions>
+            <gpxs:rteOpts>
+                <gpxs:allowHighways>true</gpxs:allowHighways>
+                <gpxs:allowTollRoads>true</gpxs:allowTollRoads>
+            </gpxs:rteOpts>
+        </extensions>
+        <rtept lat="45.5436409" lon="-122.3816121">
+            <name>Crown Point Hwy, Troutdale, OR, 97060</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Crown Point Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.5436409" lon="-122.3816121">
+                    <gpxs:ptGuidanceText>Head south on Crown Point Hwy. Go for 3.9 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>6297.937490896352</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Crown Point Hwy. .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.5162316" lon="-122.3436946">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.5162316" lon="-122.3436946">
+                    <gpxs:ptGuidanceText>Head south on Crown Point Hwy. Go for 3.9 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>1186.0625091036482</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>92.942283484987</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5162537" lon="-122.3424242">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>74.56435683570487</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5187786" lon="-122.3373095">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>68.4269318052136</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5189688" lon="-122.3310317">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>90.2735695828901</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5189645" lon="-122.3297489">
+                    <gpxs:ptGuidanceText>Turn left onto E Bell Rd. Go for 1.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>1842.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>66.11326381172347</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5193809" lon="-122.3286172">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>57.96909430832727</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5224207" lon="-122.3192790">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>59.44126270954985</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5265592" lon="-122.3110748">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>75.04115897993438</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5265820" lon="-122.3098898">
+                    <gpxs:ptGuidanceText>Turn left onto E Historic Columbia River Hwy. Go for 1.0 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>1601.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Bell Rd</gpxs:roadName>
+                        <gpxs:travellingDir>89.44514817955644</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5265907" lon="-122.3086097">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Bell Rd</gpxs:roadName>
+                        <gpxs:travellingDir>89.44514817955644</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5293320" lon="-122.3007030">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Bell Rd</gpxs:roadName>
+                        <gpxs:travellingDir>70.36107144788718</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5315493" lon="-122.2923140">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Bell Rd</gpxs:roadName>
+                        <gpxs:travellingDir>68.22488915696795</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5318820" lon="-122.2911251">
+                    <gpxs:ptGuidanceText>Keep right onto E Historic Columbia River Hwy. Go for 5.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>8433.540253879597</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.5391744" lon="-122.2168271">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.5391744" lon="-122.2168271">
+                    <gpxs:ptGuidanceText>Keep right onto E Historic Columbia River Hwy. Go for 5.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>4279.459746120403</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>65.50906225386666</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5395460" lon="-122.2156623">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>65.50906225386666</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5485672" lon="-122.1946582">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>73.71211557736217</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5590394" lon="-122.1743872">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>46.27447415097811</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5596590" lon="-122.1734619">
+                    <gpxs:ptGuidanceText>Turn sharp right onto NE Palmer Mill Rd. Go for 361 ft.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>110.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>204.63011674880744</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5587578" lon="-122.1740520">
+                    <gpxs:ptGuidanceText>Turn right onto W Mill Rd. Go for 161 ft.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>49.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>NE Palmer Mill Rd</gpxs:roadName>
+                        <gpxs:travellingDir>282.70133447319057</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5588543" lon="-122.1746635">
+                    <gpxs:ptGuidanceText>Turn left onto E Historic Columbia River Hwy. Go for 5.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>8142.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Mill Rd</gpxs:roadName>
+                        <gpxs:travellingDir>217.57913782012187</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5581440" lon="-122.1754442">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Mill Rd</gpxs:roadName>
+                        <gpxs:travellingDir>217.57913782012187</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5394805" lon="-122.2159123">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Mill Rd</gpxs:roadName>
+                        <gpxs:travellingDir>245.7772944555548</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5399019" lon="-122.2448301">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Mill Rd</gpxs:roadName>
+                        <gpxs:travellingDir>234.46780885023713</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5391884" lon="-122.2445834">
+                    <gpxs:ptGuidanceText>Turn left. Go for 36 ft.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>11.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.5392647" lon="-122.2445040">
+            <name>Vista House</name>
+            <sym>Waypoint</sym>
+        </rtept>
+    </rte>
+    <rte>
+        <name>HISTORIC COLUMBIA    2</name>
+        <desc>Winds through Columbia River Gorge on the Oregon/Washington borderline following the path of the Columbia River.</desc>
+        <extensions>
+            <gpxs:rteOpts>
+                <gpxs:allowHighways>true</gpxs:allowHighways>
+                <gpxs:allowTollRoads>true</gpxs:allowTollRoads>
+            </gpxs:rteOpts>
+        </extensions>
+        <rtept lat="45.5392647" lon="-122.2445040">
+            <name>Vista House</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:rteSoftPt lat="45.5392647" lon="-122.2445040">
+                    <gpxs:ptGuidanceText>Head northeast. Go for 463 ft.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>141.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:travellingDir>13.1050223708923</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5393600" lon="-122.2444654">
+                    <gpxs:ptGuidanceText>Turn right toward E Historic Columbia River Hwy. Go for 69 ft.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>21.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy. .</gpxs:roadName>
+                        <gpxs:travellingDir>205.71740367080722</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5391884" lon="-122.2445834">
+                    <gpxs:ptGuidanceText>Turn right onto E Historic Columbia River Hwy. Go for 4.7 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>7618.532706016372</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy. .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.5555546" lon="-122.1792160">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.5555546" lon="-122.1792160">
+                    <gpxs:ptGuidanceText>Turn right onto E Historic Columbia River Hwy. Go for 4.7 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>11814.467293983627</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy. .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.5594015" lon="-122.1738374">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.5993021" lon="-122.0484388">
+                    <gpxs:ptGuidanceText>Turn right onto E Historic Columbia River Hwy. Go for 0.3 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>545.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>49.707341970593006</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5998295" lon="-122.0474121">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>61.12274996352471</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6002324" lon="-122.0452895">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>76.54766189721312</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6008846" lon="-122.0433332">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>48.536718280521825</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6016195" lon="-122.0426130">
+                    <gpxs:ptGuidanceText>Turn right onto E Historic Columbia River Hwy toward Dodson. Go for 1.8 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>2847.305489885526</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.6125093" lon="-122.0110381">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.6125093" lon="-122.0110381">
+                    <gpxs:ptGuidanceText>Turn right onto E Historic Columbia River Hwy toward Dodson. Go for 1.8 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>535.6945101144738</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>89.1056161502562</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6125233" lon="-122.0097543">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>89.1056161502562</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6125469" lon="-122.0075995">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>89.1056161502562</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6125704" lon="-122.0054447">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>89.1056161502562</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6125844" lon="-122.0041609">
+                    <gpxs:ptGuidanceText>Take ramp onto I-84 E (Columbia River Hwy). Go for 32.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>51598.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>87.07819010660694</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6126388" lon="-122.0028797">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>78.36949916996673</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6966267" lon="-121.8252153">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>83.21475640845262</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.7044650" lon="-121.6152743">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>87.81572701131097</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6870008" lon="-121.4068834">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>E Historic Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>103.19561806264232</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6867957" lon="-121.4056313">
+                    <gpxs:ptGuidanceText>Take exit 69 toward US-30/Mosier. Go for 0.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>363.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>107.0092693530612</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6865338" lon="-121.4044056">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>107.0092693530612</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6863203" lon="-121.4034066">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>107.0092693530612</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6860342" lon="-121.4024507">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Columbia River Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>117.97244381113444</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6855190" lon="-121.4014041">
+                    <gpxs:ptGuidanceText>Turn right onto Hwy 30 (US-30). Go for 1.3 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>2161.0187365882975</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Hwy 30 (US-30). .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.6923669" lon="-121.3811892">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Highway 30W</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.6923669" lon="-121.3811892">
+                    <gpxs:ptGuidanceText>Turn right onto Hwy 30 (US-30). Go for 1.3 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>14011.236054313827</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Hwy 30 (US-30). .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.6708032" lon="-121.2604354">
+            <name>Via Point</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Highway 30W</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.6708032" lon="-121.2604354">
+                    <gpxs:ptGuidanceText>Turn right onto Hwy 30 (US-30). Go for 1.3 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>8521.745209097877</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Hwy 30 (US-30). .</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="45.6231778" lon="-121.2135042">
+            <name>3499 W 6th St, The Dalles, OR, 97058</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>W 6th St</gpxs:roadName>
+                </gpxs:ptRoad>
+            </extensions>
+        </rtept>
+    </rte>
+</gpx>

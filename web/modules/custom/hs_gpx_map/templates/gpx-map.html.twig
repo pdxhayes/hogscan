@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a link to a file.
+ *
+ * Available variables:
+ * - attributes: The HTML attributes for the containing element.
+ * - link: A link to the file.
+ * - file_size: The size of the file.
+ *
+ * @see template_preprocess_file_link()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('hs_gpx_map/hs_gpx_map') }}
+{% if key == 0 %}
+  <div class="wrapper">
+    <div class="gpx-map" id="map-{{id}}">The route could not be rendered. This could be caused by road closures or GPX file
+      errors.
+    </div>
+  </div>
+  <br><a href="#" id="route-description-{{id}}">Route description</a>
+  <div id="directions-panel-{{id}}"></div>
+  <div class="field__label">GPX File(s):</div>
+{% endif %}
+<span{{ attributes }}>{{ link }}</span>
+{% if file_size %}
+  <span>({{ file_size }})</span>
+{% endif %}

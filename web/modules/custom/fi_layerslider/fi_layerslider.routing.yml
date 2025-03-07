@@ -1,0 +1,127 @@
+
+# Slider routing definition
+entity.fi_slider.canonical:
+  path: '/admin/content/fi_layerslider/{fi_slider}'
+  defaults:
+    # _entity_view: 'fi_slider'
+    _form: 'Drupal\fi_layerslider\Form\SlidesEditForm'
+    _title: 'Slider'
+  requirements:
+    #_entity_access: 'fi_slider.view'
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.collection:
+  path: '/admin/content/fi_layerslider'
+  defaults:
+    _entity_list: 'fi_slider'
+    _title: 'Layer Sliders'
+  requirements:
+    _permission: 'view slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.add_form:
+  path: '/admin/content/fi_layerslider/add'
+  defaults:
+    _entity_form: fi_slider.add
+    _title: 'Add Slider'
+  requirements:
+    _permission: 'add slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.edit_form:
+  path: '/admin/content/fi_layerslider/{fi_slider}/edit'
+  defaults:
+    _entity_form: fi_slider.edit
+    _title: 'Edit Slider'
+  requirements:
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.edit_slides_form:
+  path: '/admin/content/fi_layerslider/{fi_slider}/edit_slides'
+  defaults:
+    _form: 'Drupal\fi_layerslider\Form\SlidesEditForm'
+    _title: 'Edit Slides'
+  requirements:
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.settings_form:
+  path: '/admin/content/fi_layerslider/{fi_slider}/settings'
+  defaults:
+    _form: 'Drupal\fi_layerslider\Form\SliderSettingsForm'
+    _title: 'Slider Settings'
+  requirements:
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.duplicate:
+  path: '/admin/content/fi_layerslider/{fi_slider}/duplicate'
+  defaults:
+    _form: 'Drupal\fi_layerslider\Entity\Form\SliderDuplicate'
+    _title: 'Duplicate Slider'
+  requirements:
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.file_upload_form:
+  path: '/admin/content/fi_layerslider/file_upload/{name}/{default_value}'
+  defaults:
+    _form: 'Drupal\fi_layerslider\Form\SliderFileUploadForm'
+    _title: 'Upload File'
+  requirements:
+    _permission: 'edit slider entities'
+  options:
+    _admin_route: TRUE
+
+entity.fi_slider.delete_form:
+  path: '/admin/content/fi_layerslider/{fi_slider}/delete'
+  defaults:
+    _entity_form: fi_slider.delete
+    _title: 'Delete Slider'
+  requirements:
+    _permission: 'delete slider entities'
+  options:
+    _admin_route: TRUE
+
+fi_slider.settings:
+  path: 'admin/structure/fi_slider'
+  defaults:
+   _form: '\Drupal\fi_layerslider\Entity\Form\SliderSettingsForm'
+   _title: 'Slider settings'
+  requirements:
+    _permission: 'administer slider entities'
+  options:
+    _admin_route: TRUE
+
+fi_slider.export:
+  path: 'admin/content/fi_layerslider/{fi_slider}/export'
+  defaults:
+    _controller: '\Drupal\fi_layerslider\Controller\SliderController::export'
+    _title: 'Export'
+  requirements:
+    _permission: 'administer slider entities'
+
+fi_slider.import:
+  path: 'admin/content/fi_layerslider/import'
+  defaults:
+    _form: '\Drupal\fi_layerslider\Form\SliderImportForm'
+    _title: 'Import Slider'
+  requirements:
+    _permission: 'administer slider entities'
+
+fi_slider.image_browser_field:
+  path: 'admin/content/fi_layserslider/image_browser'
+  defaults:
+    _controller: '\Drupal\fi_layerslider\Controller\SliderController::buildForm'
+    _title: 'Import Slider'
+  requirements:
+    _permission: 'administer slider entities'

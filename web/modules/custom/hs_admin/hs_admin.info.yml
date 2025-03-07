@@ -1,0 +1,7 @@
+name: HOG[SCAN] Administration
+type: module
+description: Provides features for HOG[SCAN] Administrator
+package: HOG[SCAN]
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:hs

@@ -1,0 +1,26 @@
+hs_admin.main_menu:
+  path: '/admin/hogscan'
+  defaults:
+    _controller: '\Drupal\hs_admin\Controller\HsAdminController::main_menu'
+    _title: 'HOG[SCAN] Admin Main Menu'
+  methods: [GET]
+  requirements:
+    _role: 'administrator'
+
+hs_admin.utilities:
+  path: '/admin/hogscan/utilities'
+  defaults:
+    _controller: '\Drupal\hs_admin\Controller\HsAdminController::utilities_menu'
+    _title: 'HOG[SCAN] Admin Utilities Menu'
+  methods: [GET]
+  requirements:
+    _role: 'administrator'
+
+hs_admin.demo_data:
+  path: '/admin/hogscan/utilities/demo_data'
+  defaults:
+    _form: '\Drupal\hs_admin\Form\DemoDataForm'
+    _title: 'Generate demo data'
+  methods: [GET, POST]
+  requirements:
+    _role: 'administrator'

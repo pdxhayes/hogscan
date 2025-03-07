@@ -1,0 +1,6 @@
+hs_gpx_map.settings_form:
+  title: Google API key
+  description: Configure Google API key for HOG[SCAN] GPX Map.
+  parent: hs_admin.main_menu
+  route_name: hs_gpx_map.settings_form
+  weight: 10

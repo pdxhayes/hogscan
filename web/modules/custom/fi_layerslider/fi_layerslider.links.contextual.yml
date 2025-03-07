@@ -1,0 +1,12 @@
+fi_layerslider_block_edit:
+  title: 'Edit Slides'
+  route_name: entity.fi_slider.edit_slides_form
+  group: fi_layerslider
+fi_layerslider_block_settings:
+  title: 'Slider Settings'
+  route_name: entity.fi_slider.settings_form
+  group: fi_layerslider
+fi_layerslider_block_export:
+  title: 'Export Slider'
+  route_name: fi_slider.export
+  group: fi_layerslider

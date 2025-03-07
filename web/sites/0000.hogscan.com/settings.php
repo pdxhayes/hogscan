@@ -13,9 +13,6 @@
  *
  */
 
-//print_r("0000.hogchapters.local");
-//exit;
-
 /********************************************************************
  *
  * HOGSCAN requires several environment variables.
@@ -172,6 +169,8 @@ $config['s3fs.settings']['root_folder'] = $chapter_number;
 // Public file base url.
 $settings['file_public_base_url'] = 'https://hsd9.s3.us-west-2.amazonaws.com/' . $chapter_number . '/public/';
 
+
+$settings['state_cache'] = TRUE;
 
 
 // @codingStandardsIgnoreFile

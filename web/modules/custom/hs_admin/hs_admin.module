@@ -1,0 +1,10 @@
+<?php
+
+/*
+ *  This module defines features for HOG[SCAN] Admin
+ *
+ */
+ 
+function hs_admin_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'hs_admin/hs_admin_global_styles';  
+}

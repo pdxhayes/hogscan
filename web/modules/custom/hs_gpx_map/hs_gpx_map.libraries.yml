@@ -1,0 +1,13 @@
+# Custom module library.
+hs_gpx_map:
+  css:
+    base:
+      css/map.css: { }
+  js:
+    js/hs-gpx-map.js: { }
+  dependencies:
+    - core/drupalSettings
+# Third-party library.
+google-map-apis:
+  js:
+    //maps.googleapis.com/maps/api/js?sensor=false: { type: external }

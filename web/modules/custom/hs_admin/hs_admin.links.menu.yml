@@ -1,0 +1,20 @@
+hs_admin.main_menu:
+  title: 'HOG[SCAN]'
+  description: 'HOG[SCAN] Settings'
+  parent: system.admin
+  route_name: hs_admin.main_menu
+  weight: 8
+
+hs_admin.utilities:
+  title: 'Admin Utilities'
+  description: 'HOG[SCAN] Administration Utilities'
+  parent: hs_admin.main_menu
+  route_name: hs_admin.utilities
+  weight: 100
+  
+hs_admin.demo_data:
+  title: 'Generate Demo Data'
+  description: 'Generates data for demos and testing'
+  parent: hs_admin.utilities
+  route_name: hs_admin.demo_data
+  weight: 1

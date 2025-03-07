@@ -1,0 +1,4 @@
+/* hide elements from contextual users < 1 */
+.entitynodedelete-form, .block-remove, .block-system-branding-block .contextual {
+  display: none;
+}

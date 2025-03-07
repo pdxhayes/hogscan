@@ -1,0 +1,7 @@
+name: HOG[SCAN] GPX Map
+type: module
+description: HOG[SCAN] GPX Map functionality
+package: HOG[SCAN]
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:hs_admin

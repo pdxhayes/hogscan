@@ -1,0 +1,7 @@
+name: HOG[SCAN] Chapter Admin
+type: module
+description: Chapter administration features
+package: HOG[SCAN]
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:hs

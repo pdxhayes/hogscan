@@ -1,0 +1,41 @@
+/* Logo generator */
+@font-face {
+  font-family: Logo-1;
+  src: url('../fonts/abadi-mt-condensed-extra-bold.ttf');
+}
+
+/* Logo generator */
+@font-face {
+  font-family: Logo-2;
+  src: url('../fonts/Rubik-Bold.ttf');
+}
+
+/* Logo generator */
+@font-face {
+  font-family: Logo;
+  src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+
+
+
+
+#logo-canvas,
+#logo-canvas-wrapper {
+  font-family: Logo;
+}
+
+#generated-img {
+  display: none;
+  width: 455px;
+  height: 455px;
+}
+
+#logo-canvas-wrapper {
+/*   float: left;
+  margin-right: 30px; */
+}
+
+#edit-patch-style, #edit-first-line, #edit-second-line {
+/*   float: right;
+  margin-left: 30px; */
+}

@@ -1,0 +1,8 @@
+name: Custom LayerSlider
+type: module
+description: LayerSlider for building visual slider based on Revolution Slider
+#core: 8.x
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - inv_image_browser

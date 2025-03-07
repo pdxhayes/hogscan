@@ -1,0 +1,5 @@
+services:
+
+  # Defines the hogscan helper service
+  hs.services:
+    class: Drupal\hs\Services\HsHelpers

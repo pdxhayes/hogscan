@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx creator="Harley-Davidson Ride Planner" format="3.0" version="1.1" xsi:schemaLocation="https://www.nng.com/routing/xmlschemas/gpxext/v1 https://www.nng.com/routing/xmlschemas/gpxext/v1/gpxext.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxs="https://www.nng.com/routing/xmlschemas/gpxext/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <wpt lat="45.4419500" lon="-122.7810800">
+        <name>Paradise Harley-Davidson</name>
+        <cmt>Paradise Harley-Davidson</cmt>
+        <desc>Paradise Harley-Davidson</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                <gpxs:roadNameLong>SW Cascade Blvd Portland OR</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <wpt lat="46.3523300" lon="-124.0544000">
+        <name>201 WA-103</name>
+        <cmt>201 WA-103</cmt>
+        <desc>201 WA-103</desc>
+        <sym>Waypoint</sym>
+        <extensions>
+            <gpxs:ptRoad>
+                <gpxs:roadName>WA-103</gpxs:roadName>
+                <gpxs:roadNameLong>WA-103 Long Beach WA</gpxs:roadNameLong>
+            </gpxs:ptRoad>
+            <gpxx:WaypointExtension>
+                <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+    <rte>
+        <name>Ride to Long Beach, WA</name>
+        <desc>Another sample gpx file</desc>
+        <extensions>
+            <gpxs:rteOpts>
+                <gpxs:allowFerries>true</gpxs:allowFerries>
+                <gpxs:allowHighways>true</gpxs:allowHighways>
+                <gpxs:allowTollRoads>true</gpxs:allowTollRoads>
+            </gpxs:rteOpts>
+        </extensions>
+        <rtept lat="45.4419607" lon="-122.7810775">
+            <name>Paradise Harley-Davidson</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                </gpxs:ptRoad>
+                <gpxs:rteSoftPt lat="45.4419607" lon="-122.7810775">
+                    <gpxs:ptGuidanceText>Head toward SW Greenburg Rd on SW Cascade Blvd. Go for 0.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>179.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                        <gpxs:travellingDir>93.19764213714757</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4417169" lon="-122.7788258">
+                    <gpxs:ptGuidanceText>Turn left onto SW Greenburg Rd. Go for 0.2 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>318.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                        <gpxs:travellingDir>38.99561298267969</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4424267" lon="-122.7780400">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                        <gpxs:travellingDir>33.258537859130854</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4428849" lon="-122.7776683">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                        <gpxs:travellingDir>17.495596496078406</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4433910" lon="-122.7774409">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Cascade Blvd</gpxs:roadName>
+                        <gpxs:travellingDir>17.495596496078406</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4442489" lon="-122.7770555">
+                    <gpxs:ptGuidanceText>Turn left and take ramp onto OR-217 N (Beaverton-Tigard Hwy) toward Beaverton. Go for 5.0 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>7971.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Greenburg Rd</gpxs:roadName>
+                        <gpxs:travellingDir>283.26459468736033</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4444553" lon="-122.7783032">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Greenburg Rd</gpxs:roadName>
+                        <gpxs:travellingDir>283.26459468736033</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.4768292" lon="-122.7897546">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Greenburg Rd</gpxs:roadName>
+                        <gpxs:travellingDir>328.76959890233246</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5078250" lon="-122.7786859">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>SW Greenburg Rd</gpxs:roadName>
+                        <gpxs:travellingDir>31.759306000101446</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5085897" lon="-122.7780104">
+                    <gpxs:ptGuidanceText>Take the left exit toward Seaside onto US-26 W (Sunset Hwy). Go for 47.4 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>76278.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>28.72065073489381</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5094051" lon="-122.7774525">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>16.70774684068084</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.5887048" lon="-122.9916413">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>298.2411513080885</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.6814581" lon="-123.1944050">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>306.58941239123425</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.7743010" lon="-123.3680721">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>243.51856749245866</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.8583286" lon="-123.5512099">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Beaverton-Tigard Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>279.6028387284112</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.8584785" lon="-123.5524821">
+                    <gpxs:ptGuidanceText>Turn left onto Fish Hawk Falls Hwy (OR-103). Go for 0.1 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>161.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Sunset Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>202.11632152884496</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.8583605" lon="-123.5542524">
+                    <gpxs:ptGuidanceText>Turn right onto Fish Hawk Falls Hwy (OR-103). Go for 8.9 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>14324.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>358.52298830938525</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.8592580" lon="-123.5542856">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>358.52298830938525</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.8963179" lon="-123.5300422">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>105.51320111448251</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.9336483" lon="-123.5040822">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>278.52659835601787</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.9340847" lon="-123.5051250">
+                    <gpxs:ptGuidanceText>Turn left onto Nehalem Hwy (OR-202). Go for 28.8 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>46364.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>261.8812816073266</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="45.9339559" lon="-123.5064232">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>261.8812816073266</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.0174982" lon="-123.6230193">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>347.1641264261251</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.0978405" lon="-123.7498472">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>280.5692064845463</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1818866" lon="-123.8603304">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Fish Hawk Falls Hwy</gpxs:roadName>
+                        <gpxs:travellingDir>341.91401625556955</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1827683" lon="-123.8604963">
+                    <gpxs:ptGuidanceText>Take the 1st exit from roundabout onto W Marine Dr (US-101). Go for 0.5 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>838.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>28.444871298764383</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1835086" lon="-123.8597453">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>38.050294671817596</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1856118" lon="-123.8572029">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>56.42004534769296</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1871962" lon="-123.8537557">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>56.42004534769296</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1876929" lon="-123.8526750">
+                    <gpxs:ptGuidanceText>Turn left onto Astoria Brg (US-101). Go for 3.8 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>6133.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>319.1281357136098</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.1879818" lon="-123.8537362">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>238.86274921698723</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2090498" lon="-123.8587662">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>340.6587853585543</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2342125" lon="-123.8715350">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>W Marine Dr</gpxs:roadName>
+                        <gpxs:travellingDir>340.6587853585543</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2350607" lon="-123.8719654">
+                    <gpxs:ptGuidanceText>Continue on Astoria Brg (US-101). Go for 0.4 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>719.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Astoria Brg</gpxs:roadName>
+                        <gpxs:travellingDir>340.8929763874647</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2359098" lon="-123.8723907">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Astoria Brg</gpxs:roadName>
+                        <gpxs:travellingDir>340.8929763874647</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2381130" lon="-123.8734943">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Astoria Brg</gpxs:roadName>
+                        <gpxs:travellingDir>340.8929763874647</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2403163" lon="-123.8745978">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Astoria Brg</gpxs:roadName>
+                        <gpxs:travellingDir>340.8929763874647</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2411654" lon="-123.8750231">
+                    <gpxs:ptGuidanceText>Turn left onto State Route 101 (US-101 N) toward Ilwaco/Long Beach/Hospital. Go for 8.9 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>14382.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 N) Ilwaco/Long Beach/Hospital. .</gpxs:roadName>
+                        <gpxs:travellingDir>263.8673624869886</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2410694" lon="-123.8763152">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 N) Ilwaco/Long Beach/Hospital. .</gpxs:roadName>
+                        <gpxs:travellingDir>263.8673624869886</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.2753801" lon="-123.9477948">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 N) Ilwaco/Long Beach/Hospital. .</gpxs:roadName>
+                        <gpxs:travellingDir>328.5436332039327</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3216860" lon="-124.0046863">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 N) Ilwaco/Long Beach/Hospital. .</gpxs:roadName>
+                        <gpxs:travellingDir>300.9060873973839</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3220716" lon="-124.0058613">
+                    <gpxs:ptGuidanceText>Turn right onto US-101-ALT toward US-101/Raymond/Aberdeen. Go for 0.6 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>988.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101</gpxs:roadName>
+                        <gpxs:travellingDir>14.519117907948953</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3229517" lon="-124.0056193">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101</gpxs:roadName>
+                        <gpxs:travellingDir>2.360177351649213</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3264977" lon="-124.0055666">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101</gpxs:roadName>
+                        <gpxs:travellingDir>0.3373158946155854</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3300442" lon="-124.0055364">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101</gpxs:roadName>
+                        <gpxs:travellingDir>0.3373158946155854</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3309443" lon="-124.0055287">
+                    <gpxs:ptGuidanceText>Turn left onto State Route 101 (US-101 S) toward Long Beach/Ilwaco. Go for 2.4 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>3798.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 S) Long Beach/Ilwaco. .</gpxs:roadName>
+                        <gpxs:travellingDir>270.6756382667132</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3309549" lon="-124.0068295">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 S) Long Beach/Ilwaco. .</gpxs:roadName>
+                        <gpxs:travellingDir>270.6756382667132</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3311454" lon="-124.0302313">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 S) Long Beach/Ilwaco. .</gpxs:roadName>
+                        <gpxs:travellingDir>270.6756382667132</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3311828" lon="-124.0536341">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>State Route 101 (US-101 S) Long Beach/Ilwaco. .</gpxs:roadName>
+                        <gpxs:travellingDir>269.83775971112254</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3311803" lon="-124.0549350">
+                    <gpxs:ptGuidanceText>Turn right onto Pacific Way (WA-103 N) toward Long Beach/Ocean Park. Go for 1.5 mi.</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>2354.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Highway 101</gpxs:roadName>
+                        <gpxs:travellingDir>6.722986034446421</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3320766" lon="-124.0548453">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Highway 101</gpxs:roadName>
+                        <gpxs:travellingDir>1.2649525303601763</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>post-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3417619" lon="-124.0545355">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Highway 101</gpxs:roadName>
+                        <gpxs:travellingDir>1.2649525303601763</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>inter-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3514326" lon="-124.0544900">
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Highway 101</gpxs:roadName>
+                        <gpxs:travellingDir>4.1333905959677395</gpxs:travellingDir>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>pre-maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+                <gpxs:rteSoftPt lat="46.3523298" lon="-124.0543961">
+                    <gpxs:ptGuidanceText>Arrive at Pacific Ave N (WA-103).</gpxs:ptGuidanceText>
+                    <gpxs:ptNextManDst>0.0</gpxs:ptNextManDst>
+                    <gpxs:ptRoad>
+                        <gpxs:roadName>Pacific Ave N</gpxs:roadName>
+                    </gpxs:ptRoad>
+                    <gpxs:ptType>maneuver</gpxs:ptType>
+                </gpxs:rteSoftPt>
+            </extensions>
+        </rtept>
+        <rtept lat="46.3523298" lon="-124.0543961">
+            <name>201 WA-103, Long Beach, WA, 98631</name>
+            <sym>Waypoint</sym>
+            <extensions>
+                <gpxs:ptRoad>
+                    <gpxs:roadName>Pacific Ave N</gpxs:roadName>
+                </gpxs:ptRoad>
+            </extensions>
+        </rtept>
+    </rte>
+</gpx>

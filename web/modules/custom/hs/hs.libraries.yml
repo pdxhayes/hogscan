@@ -1,0 +1,39 @@
+hs_global_styles:
+  version: 0.1
+  css:
+    base:
+      misc/css/hs_global.css: {}
+
+hs_hide_stuff:
+  version: 0.11
+  css:
+    base:
+      misc/css/hs_hide_stuff.css: {}
+  js:
+    misc/js/hs_hide_stuff.js: {}
+  dependencies:
+    - core/jquery
+
+hs_date_styles:
+  version: 0.14
+  css:
+    base:
+      misc/css/hs_date.css: {}
+  js:
+    misc/js/hs_date.js: {}
+  dependencies:
+    - core/jquery
+
+hs_user_register_form:
+  version: 0.19
+  js:
+    misc/js/hs_user_register_form.js: {}
+  dependencies:
+    - core/jquery
+
+hs_user_edit_form:
+  version: 0.13
+  js:
+    misc/js/hs_user_edit_form.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,45 @@
+<?php
+
+/*
+ *  This module defines Chapter administration features for HOG[SCAN]
+ *
+ */
+
+ /**
+ * Implements hook_page_attachments
+ */
+ function hs_chapter_page_attachments(array &$page) {
+   $page['#attached']['library'][] = 'hs_chapter/misc/css/chapter_menu.css';
+ }
+
+ /**
+  * Implements hook_install().
+  */
+ function hs_chapter_install() {
+
+  $hs_settings = array();
+  $hs_settings['logo_builder']['type'] = 'EAGLE';
+  $hs_settings['logo_builder']['first_line']['text'] = 'LOREM IPSUM';
+  $hs_settings['logo_builder']['first_line']['size'] = '50';
+  $hs_settings['logo_builder']['first_line']['offset'] = '47';
+  $hs_settings['logo_builder']['second_line']['text'] = 'LOREM IPSUM';
+  $hs_settings['logo_builder']['second_line']['size'] = '50';
+  $hs_settings['logo_builder']['second_line']['offset'] = '47';
+
+  $hs_settings['config']['test'] = 'undefined';
+  $hs_settings['config']['last_national_import'] = '2022-01-01';
+  $hs_settings['config']['auto_archive']['enabled'] = true;
+  $hs_settings['config']['auto_archive']['grace_days'] = '90';
+  $hs_settings['config']['welcome_email']['from'] = '';
+  $hs_settings['config']['welcome_email']['subject'] = '';
+  $hs_settings['config']['welcome_email']['body'] = '';
+
+
+
+  // Set default values for config which require dynamic values.
+  \Drupal::configFactory()->getEditable('hs_chapter.settings')
+    ->set('logo_builder', $hs_settings['logo_builder'])
+    ->set('config', $hs_settings['config'])
+    ->save();
+
+ }

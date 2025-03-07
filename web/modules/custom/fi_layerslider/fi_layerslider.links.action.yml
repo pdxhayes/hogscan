@@ -1,0 +1,7 @@
+entity.fi_slider.add_form:
+  route_name: entity.fi_slider.add_form
+  title: 'Add Slider'
+  appears_on:
+    - entity.fi_slider.collection
+    - entity.fi_slider.canonical
+

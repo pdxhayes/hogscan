@@ -1,0 +1,9 @@
+name: Custom Image Browser
+type: module
+description: Provide Image Browser for uploading image
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - views
+  - entity_browser
+  - token

@@ -1,0 +1,7 @@
+hs_gpx_map.settings_form:
+  path: '/admin/hogscan/hs-gpx-map'
+  defaults:
+    _title: 'Google API key'
+    _form: 'Drupal\hs_gpx_map\Form\SettingsForm'
+  requirements:
+    _permission: 'administer hs_gpx_map configuration'

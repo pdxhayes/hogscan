@@ -1,0 +1,262 @@
+# ##
+# #   Chapter Dashboard
+# ##
+hs_chapter.chapter_dashboard:
+  title: 'Dashboard'
+  description: ''
+  # parent: chapter
+  menu_name: chapter
+  route_name: hs_chapter.chapter_dashboard
+  weight: 1
+
+# ##
+# #   Content
+# ##
+hs_chapter.chapter_content:
+  title: 'Content'
+  description: ''
+  # parent: chapter
+  menu_name: chapter
+  #route_name: view.website_content.page_1
+  url: internal:/node/add
+  weight: 10
+
+hs_chapter.add_page:
+  title: 'Create Page'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/page
+
+hs_chapter.add_blog:
+  title: 'Create Blog Post'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/article
+
+hs_chapter.add_challenge:
+  title: 'Create Chapter Challenge'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/chapter_challenge
+
+hs_chapter.add_event:
+  title: 'Create Event'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/event
+
+hs_chapter.add_gallery:
+  title: 'Create Image Gallery'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/gallery
+
+hs_chapter.add_team:
+  title: 'Create Team Member'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/team
+
+hs_chapter.add_email:
+  title: 'Create Email Campaign'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/email_node
+
+hs_chapter.add_newsletter:
+  title: 'Create Newsletter'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/newsletter
+
+hs_chapter.add_topic:
+  title: 'Create Forum Topic'
+  description: ''
+  parent: hs_chapter.chapter_content
+  url: internal:/node/add/forum
+
+# ##
+# #   Members Menu
+# ##
+hs_chapter.chapter_members:
+  title: 'Members'
+  description: ''
+  menu_name: chapter
+  route_name: hs_chapter.chapter_members
+  weight: 20
+
+hs_chapter.member_search:
+  title: 'Member Search'
+  description: ''
+  parent: hs_chapter.chapter_members
+  route_name: view.hs_member_reports.page_1
+  weight: 0
+
+hs_chapter.import_csv:
+  title: 'Import / Update Roster'
+  description: ''
+  parent: hs_chapter.chapter_members
+  route_name: hs_chapter.import_csv
+  weight: 1
+
+hs_chapter.export_csv:
+  title: 'Export Roster'
+  description: ''
+  parent: hs_chapter.chapter_members
+  route_name: hs_chapter.export_csv
+  weight: 2
+
+hs_chapter.add_member:
+  title: 'Add Member'
+  description: ''
+  parent: hs_chapter.chapter_members
+  url: internal:/admin/people/create
+  weight: 3
+
+
+# ##
+# #    Reports Menu
+# ##
+hs_chapter.chapter_reports:
+  title: 'Reports'
+  description: ''
+  menu_name: chapter
+  route_name: hs_chapter.chapter_reports
+  weight: 30
+
+hs_chapter.current_members:
+  title: 'Current Members'
+  description: ''
+  parent: hs_chapter.chapter_reports
+  route_name: view.hs_member_reports.page_2
+  weight: 3
+
+hs_chapter.expired_members:
+  title: 'Expired Members'
+  description: ''
+  parent: hs_chapter.chapter_reports
+  route_name: view.hs_member_reports.page_3
+  weight: 4
+
+hs_chapter.expiring_members:
+  title: 'Expiring Members'
+  description: ''
+  parent: hs_chapter.chapter_reports
+  route_name: view.hs_member_reports.page_4
+  weight: 5
+
+hs_chapter.blocked_members:
+  title: 'Blocked Members'
+  description: ''
+  parent: hs_chapter.chapter_reports
+  route_name: view.hs_member_reports.page_5
+  weight: 6
+
+hs_chapter.mileage_report:
+  title: 'Mileage Report'
+  description: ''
+  parent: hs_chapter.chapter_reports
+  route_name: view.hs_member_reports.page_6
+  weight: 7
+
+# ##
+# #   Configuration Menu
+# ##
+hs_chapter.chapter_config:
+  title: 'Configuration'
+  description: ''
+  menu_name: chapter
+  route_name: hs_chapter.chapter_config
+  weight: 40
+
+hs_chapter.logo_builder:
+  title: 'Chapter Logo Builder'
+  description: ''
+  parent: hs_chapter.chapter_config
+  route_name: hs_chapter.logo_builder
+  weight: 1
+
+hs_chapter.theme_settings:
+  title: 'Configure Theme Settings'
+  description: ''
+  parent: hs_chapter.chapter_config
+  route_name: hs_chapter.theme_settings
+  weight: 1
+
+
+hs_chapter.config_welcome_email:
+  title: 'Configure Welcome Email'
+  description: ''
+  parent: hs_chapter.chapter_config
+  route_name: hs_chapter.config_welcome_email
+  weight: 1
+
+hs_chapter.import_menu:
+  title: 'Import / Update Roster'
+  description: ''
+  parent: hs_chapter.chapter_menu
+  route_name: hs_chapter.import_menu
+  weight: 2
+
+hs_chapter.sms_menu:
+  title: 'Send SMS / Push Messages'
+  description: ''
+  parent: hs_chapter.chapter_menu
+  route_name: hs_chapter.sms_menu
+  weight: 3
+
+hs_chapter.mailer_menu:
+  title: 'Send Email Campaigns'
+  description: ''
+  parent: hs_chapter.chapter_menu
+  route_name: hs_chapter.mailer_menu
+  weight: 4
+
+# ##
+# #   Utilities Menu
+# ##
+hs_chapter.chapter_util:
+  title: 'Utilities'
+  description: ''
+  menu_name: chapter
+  route_name: hs_chapter.chapter_util
+  weight: 50
+
+hs_chapter.prelaunch_checklist:
+  title: 'Prelaunch Checklist'
+  description: ''
+  parent: hs_chapter.chapter_util
+  route_name: hs_chapter.prelaunch_checklist
+  weight: 0
+
+hs_chapter.clear_server_cache:
+  title: 'Flush Server Cache'
+  description: ''
+  parent: hs_chapter.chapter_util
+  route_name: hs_chapter.clear_server_cache
+  weight: 10
+
+hs_chapter.cpanel:
+  title: 'cPanel'
+  description: ''
+  parent: hs_chapter.chapter_util
+  route_name: hs_chapter.cpanel
+  weight: 20
+
+hs_chapter.webmail:
+  title: 'Webmail'
+  description: ''
+  parent: hs_chapter.chapter_util
+  route_name: hs_chapter.webmail
+  weight: 30
+
+
+# ##
+# #   Utilities Menu
+# ##
+hs_chapter.help_menu:
+  title: 'Help'
+  description: ''
+  menu_name: chapter
+  route_name: hs_chapter.help_menu
+  weight: 60

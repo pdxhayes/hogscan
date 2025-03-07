@@ -1,0 +1,5 @@
+hs_admin_global_styles:
+  version: 0.1
+  css:
+    base:
+      misc/css/hs_admin_global.css: {}

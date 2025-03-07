@@ -1,0 +1,83 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for HOG[SCAN] GPX Map module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+use Drupal\Core\File\FileUrlGeneratorInterface;
+use Drupal\Core\Link;
+use Drupal\Core\Template\Attribute;
+
+function template_preprocess_gpx_map(&$variables)
+{
+  $file = $variables['file'];
+  $options = [];
+  $gpx_data = [];
+  $config = Drupal::config('hs_gpx_map.settings');
+  $settings = $config->get();
+
+  if ($variables['key'] == 0) {
+
+    $gpx_file = simplexml_load_file($file->getFileUri());
+    $index = 0;
+
+    foreach ($gpx_file->rte->rtept as $pt) {
+      $gpx_data[$index][0] = (string)$pt['lat'];
+      $gpx_data[$index][1] = (string)$pt['lon'];
+      $index++;
+    }
+
+    unset($gpx_file);
+  }
+
+  $variables['#attached']['drupalSettings']['hs_gpx_map']['gpx'] = $gpx_data;
+  $variables['#attached']['drupalSettings']['hs_gpx_map']['api'] = $settings['api'];
+  $variables['#attached']['drupalSettings']['hs_gpx_map']['mapSettings'] = $variables['settings'];
+  $variables['#attached']['drupalSettings']['hs_gpx_map']['id'] = $variables['id'];
+
+
+  /** @var FileUrlGeneratorInterface $file_url_generator */
+  $file_url_generator = Drupal::service('file_url_generator');
+  $url = $file_url_generator->generate($file->getFileUri());
+
+  $mime_type = $file->getMimeType();
+  $options['attributes']['type'] = $mime_type;
+
+  // Use the description as the link text if available.
+  if (empty($variables['description'])) {
+    $link_text = $file->getFilename();
+  } else {
+    $link_text = $variables['description'];
+    $options['attributes']['title'] = $file->getFilename();
+  }
+
+  // Classes to add to the file field for icons.
+  $classes = [
+    'file',
+    // Add a specific class for each and every mime type.
+    'file--mime-' . strtr($mime_type, ['/' => '-', '.' => '-']),
+    // Add a more general class for groups of well known MIME types.
+    'file--' . file_icon_class($mime_type),
+  ];
+
+  // Set file classes to the options array.
+  $variables['attributes'] = new Attribute($variables['attributes']);
+  $variables['attributes']->addClass($classes);
+  $variables['file_size'] = format_size($file->getSize() ?? 0);
+
+  $variables['link'] = Link::fromTextAndUrl($link_text, $url->mergeOptions($options))->toRenderable();
+}
+
+function hs_gpx_map_theme()
+{
+  return [
+    'gpx_map' => [
+      'variables' => ['file' => NULL, 'description' => NULL, 'attributes' => [], 'settings' => [], 'key' => NULL, 'id' => NULL],
+    ],
+  ];
+}
