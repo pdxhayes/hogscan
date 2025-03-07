@@ -25,6 +25,7 @@
  ********************************************************************/
 $app_root_parent = dirname($app_root);
 
+
 // DB Credentials
 $db_host  = getenv('HS_DB_HOST');
 $db_port  = getenv('HS_DB_PORT');
@@ -957,14 +958,16 @@ $settings['entity_update_backup'] = TRUE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 $databases['default']['default'] = array (
-  'database' => $db_name,
+  'database' => "chapter_0000",
   'username' => $db_user,
   'password' => $db_pass,
   'prefix' => '',
   'host' => $db_host,
   'port' => $db_port,
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'isolation_level' => 'READ COMMITTED',
   'driver' => 'mysql',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 
 
