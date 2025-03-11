@@ -16,6 +16,10 @@ use Drupal\hs\Services\HsHelpers; // for HS Helpers
 class HsApi {
 
   public function test() {
+    return new JsonResponse("Hello, World!");
+  }
+
+  public function test2() {
 
     $module = 'system';
     $key = 'mail';
@@ -56,9 +60,15 @@ class HsApi {
 
   }
 
+  /*
+   *
+   * This function returns a message of the day.  I want to have something like
+   * this being used to display a message to the user when they login / launch.
+   * Ultimately, this would be something the Chapter would configure via web interface.
+   */
   private function getMotd() {
 
-    $motd['lastUpdate'] = '2022-01-09T23:59:59';
+    $motd['lastUpdate'] = '2025-01-09T23:59:59';
     $motd['apiVersion'] = "3.0.b1";
     $motd['appVersion'] = "3.0.a1";
     $motd['messageOfTheDay']['message'] = "Something to show the user.";
@@ -79,6 +89,8 @@ class HsApi {
     $query = \Drupal::entityQuery('node');
     $query->condition('type', 'event');
     $query->condition('status', 1);
+    // access check is required as of Drupal 10.
+    $query->accessCheck(TRUE);
 
     $query_result = $query->execute();
 

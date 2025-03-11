@@ -13,6 +13,7 @@ class HsHelpers {
   public function getMemberList() {
 
     $query = \Drupal::entityQuery('user');
+
       if("true" != $_GET['expired']) {
         $and = $query->andConditionGroup()
           ->condition('field_member_hog_member_until', date("Y-m-d"), '>')
@@ -25,6 +26,8 @@ class HsHelpers {
       }
       // regardless of all else, prevent user #1 from being returned.
       $query->condition('uid', '2', '>');
+      // access check is required as of Drupal 10.
+      $query->accessCheck(TRUE);
 
     $query_result = $query->execute();
 
@@ -111,6 +114,8 @@ class HsHelpers {
   */
   public function loadUserByHogId($hogid) {
     $query = \Drupal::entityQuery('user')
+      // access check is required as of Drupal 10.
+      ->accessCheck(FALSE)
       ->condition('field_member_hog_id', $hogid, '=');
     $result = $query->execute();
 

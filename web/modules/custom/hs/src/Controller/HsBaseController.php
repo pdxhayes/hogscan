@@ -125,6 +125,9 @@ abstract class HsBaseController {
     // regardless of all else, prevent user #1 from being returned
     $query->condition('uid', '1', '>');
 
+    // add access check
+    $query->accessCheck(TRUE);
+
     // execute the query
     $query_result = $query->execute();
 
@@ -150,6 +153,9 @@ abstract class HsBaseController {
     // regardless of all else, prevent user #1 from being returned
     $query->condition('uid', '1', '>');
 
+    // add access check
+    $query->accessCheck(TRUE);
+
     // execute the query
     $query_result = $query->execute();
 
@@ -168,6 +174,9 @@ abstract class HsBaseController {
     $query->condition('status',0, '=');
     // regardless of all else, prevent user #1 from being returned
     $query->condition('uid', 1, '>');
+
+    // add access check
+    $query->accessCheck(TRUE);
 
     // execute the query
     $query_result = $query->execute();
@@ -204,6 +213,9 @@ abstract class HsBaseController {
     }
     // regardless of all else, prevent user #1 from being returned
     $query->condition('uid', '1', '>');
+
+    // add access check
+    $query->accessCheck(TRUE);
 
     $query_result = $query->execute();
 
@@ -250,6 +262,9 @@ abstract class HsBaseController {
   public static function loadUserByHogId($hog_id) {
     $query = Drupal::entityQuery('user')
       ->condition('field_member_hog_id', $hog_id, '=');
+    // add access check
+    $query->accessCheck(TRUE);
+
     $result = $query->execute();
 
     if (empty($result)) {
