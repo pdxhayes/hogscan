@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
+mode: simple
+ignored_config_entities:
+  - hogscan.settings
+  - hs_chapter.settings
+  - s3fs.settings
+  - system.date
+  - user.mail
+  - 'views.view.*'
+  - '~views.view.hs_*'

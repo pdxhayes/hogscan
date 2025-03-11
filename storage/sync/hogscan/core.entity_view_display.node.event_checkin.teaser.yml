@@ -1,0 +1,28 @@
+uuid: 11bfa4a4-aec4-4c68-a118-24c4da0ae525
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event_checkin.field_checkin_mileage
+    - field.field.node.event_checkin.field_checkin_points
+    - field.field.node.event_checkin.field_ref_event
+    - field.field.node.event_checkin.field_ref_user
+    - node.type.event_checkin
+  module:
+    - user
+id: node.event_checkin.teaser
+targetEntityType: node
+bundle: event_checkin
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_checkin_mileage: true
+  field_checkin_points: true
+  field_ref_event: true
+  field_ref_user: true

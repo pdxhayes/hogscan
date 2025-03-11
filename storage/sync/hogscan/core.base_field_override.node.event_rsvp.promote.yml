@@ -1,0 +1,22 @@
+uuid: 02b14db9-5fd9-43e9-8928-92aa9d764f77
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_rsvp
+id: node.event_rsvp.promote
+field_name: promote
+entity_type: node
+bundle: event_rsvp
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

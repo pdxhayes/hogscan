@@ -1,0 +1,23 @@
+uuid: 3331e8e6-7a32-471b-916b-73a30e3c2ba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checkin_mileage
+    - node.type.event_checkin
+id: node.event_checkin.field_checkin_mileage
+field_name: field_checkin_mileage
+entity_type: node
+bundle: event_checkin
+label: checkin_mileage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,192 @@
+uuid: a3fe1c1a-d4a0-479e-b525-2cbc1bd68aa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.field_hogscan_migrate_uid
+    - field.field.user.user.field_member_address
+    - field.field.user.user.field_member_admin_notes
+    - field.field.user.user.field_member_app_lat
+    - field.field.user.user.field_member_app_long
+    - field.field.user.user.field_member_app_platform
+    - field.field.user.user.field_member_app_push_token
+    - field.field.user.user.field_member_email_opt_in
+    - field.field.user.user.field_member_first_name
+    - field.field.user.user.field_member_gen_card
+    - field.field.user.user.field_member_hog_first_name
+    - field.field.user.user.field_member_hog_id
+    - field.field.user.user.field_member_hog_last_name
+    - field.field.user.user.field_member_hog_life_member
+    - field.field.user.user.field_member_hog_member_since
+    - field.field.user.user.field_member_hog_member_type
+    - field.field.user.user.field_member_hog_member_until
+    - field.field.user.user.field_member_hog_middle_name
+    - field.field.user.user.field_member_hog_mileage_2018
+    - field.field.user.user.field_member_hog_mileage_2019
+    - field.field.user.user.field_member_hog_mileage_2020
+    - field.field.user.user.field_member_hog_mileage_2021
+    - field.field.user.user.field_member_hog_mileage_2022
+    - field.field.user.user.field_member_hog_mileage_life
+    - field.field.user.user.field_member_hog_officer_role
+    - field.field.user.user.field_member_hog_status
+    - field.field.user.user.field_member_ice_name
+    - field.field.user.user.field_member_ice_phone
+    - field.field.user.user.field_member_last_name
+    - field.field.user.user.field_member_nick_name
+    - field.field.user.user.field_member_notification_opt_in
+    - field.field.user.user.field_member_phone
+    - field.field.user.user.field_member_points
+    - field.field.user.user.field_member_qr
+    - field.field.user.user.field_member_release_until
+    - field.field.user.user.field_member_send_welcome_email
+    - field.field.user.user.field_member_since
+    - field.field.user.user.field_member_source
+    - field.field.user.user.field_member_until
+    - field.field.user.user.field_ref_notification_groups
+    - field.field.user.user.user_picture
+  module:
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_communication_groups:
+      children:
+        - field_ref_notification_groups
+      label: 'Communication Groups'
+      region: content
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: 'Add members to communication groups for email, text messaging and push notifications.'
+        required_fields: false
+    group_administrative_notes:
+      children:
+        - field_member_admin_notes
+      label: 'Administrative Notes'
+      region: content
+      parent_name: ''
+      weight: 6
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+  field_member_admin_notes:
+    type: string_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_first_name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_gen_card:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_hog_id:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_last_name:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_send_welcome_email:
+    type: boolean_checkbox
+    weight: 8
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_source:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ref_notification_groups:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_hogscan_migrate_uid: true
+  field_member_address: true
+  field_member_app_lat: true
+  field_member_app_long: true
+  field_member_app_platform: true
+  field_member_app_push_token: true
+  field_member_email_opt_in: true
+  field_member_hog_first_name: true
+  field_member_hog_last_name: true
+  field_member_hog_life_member: true
+  field_member_hog_member_since: true
+  field_member_hog_member_type: true
+  field_member_hog_member_until: true
+  field_member_hog_middle_name: true
+  field_member_hog_mileage_2018: true
+  field_member_hog_mileage_2019: true
+  field_member_hog_mileage_2020: true
+  field_member_hog_mileage_2021: true
+  field_member_hog_mileage_2022: true
+  field_member_hog_mileage_life: true
+  field_member_hog_officer_role: true
+  field_member_hog_status: true
+  field_member_ice_name: true
+  field_member_ice_phone: true
+  field_member_nick_name: true
+  field_member_notification_opt_in: true
+  field_member_phone: true
+  field_member_points: true
+  field_member_qr: true
+  field_member_release_until: true
+  field_member_since: true
+  field_member_until: true
+  language: true
+  path: true
+  timezone: true
+  user_picture: true

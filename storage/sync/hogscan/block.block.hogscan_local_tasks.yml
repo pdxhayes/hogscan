@@ -1,0 +1,48 @@
+uuid: 2f963e21-e3aa-4241-873a-b7e872188c02
+langcode: en
+status: true
+dependencies:
+  module:
+    - dexp_block_settings
+    - system
+  theme:
+    - hogscan
+third_party_settings:
+  dexp_block_settings:
+    animate: ''
+    animate_delay: 0
+    background_color: ''
+    background_image: 'file:0'
+    background_image_type: default
+    background_repeat: no-repeat
+    background_size: auto
+    background_video: ''
+    background_video_start_at: null
+    exclude_block_title: 0
+    custom_class: ''
+    custom_content_class: ''
+    custom_css: ''
+    animate_duration: '1000'
+    background_position: ''
+    background_video_controls: 0
+    background_video_mute: 0
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: hogscan_local_tasks
+theme: hogscan
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

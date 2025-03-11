@@ -1,0 +1,84 @@
+uuid: d10939f6-ebe2-4a9e-bcd7-0b51977e650a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.article
+    - node.type.chapter_challenge
+    - node.type.event
+    - node.type.forum
+    - node.type.gallery
+    - node.type.newsletter
+    - node.type.page
+    - node.type.team
+    - taxonomy.vocabulary.event_types
+    - taxonomy.vocabulary.forums
+  module:
+    - actions_permissions
+    - comment
+    - file
+    - filter
+    - forum
+    - node
+    - nodeaccess
+    - system
+    - taxonomy
+id: content_admin
+label: 'Content Admin'
+weight: -2
+is_admin: null
+permissions:
+  - 'administer forums'
+  - 'administer menu'
+  - 'create article content'
+  - 'create chapter_challenge content'
+  - 'create event content'
+  - 'create forum content'
+  - 'create gallery content'
+  - 'create newsletter content'
+  - 'create page content'
+  - 'create team content'
+  - 'create terms in event_types'
+  - 'create terms in forums'
+  - 'delete all revisions'
+  - 'delete any forum content'
+  - 'delete article revisions'
+  - 'delete chapter_challenge revisions'
+  - 'delete event revisions'
+  - 'delete gallery revisions'
+  - 'delete newsletter revisions'
+  - 'delete own files'
+  - 'delete page revisions'
+  - 'delete team revisions'
+  - 'edit any chapter_challenge content'
+  - 'edit any event content'
+  - 'edit any forum content'
+  - 'edit any gallery content'
+  - 'edit any newsletter content'
+  - 'edit any page content'
+  - 'edit any team content'
+  - 'execute entity:publish_action comment'
+  - 'execute entity:publish_action node'
+  - 'execute entity:unpublish_action comment'
+  - 'execute entity:unpublish_action node'
+  - 'grant node permissions'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert chapter_challenge revisions'
+  - 'revert event revisions'
+  - 'revert gallery revisions'
+  - 'revert newsletter revisions'
+  - 'revert page revisions'
+  - 'revert team revisions'
+  - 'skip comment approval'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view chapter_challenge revisions'
+  - 'view event revisions'
+  - 'view gallery revisions'
+  - 'view newsletter revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view team revisions'

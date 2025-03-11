@@ -1,0 +1,20 @@
+uuid: 18abe271-5ec6-4d03-9c6b-7d16db82ad87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_ice_phone
+  module:
+    - user
+id: user.user.field_member_ice_phone
+field_name: field_member_ice_phone
+entity_type: user
+bundle: user
+label: 'Emergency Contact Phone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

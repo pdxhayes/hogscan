@@ -1,0 +1,22 @@
+uuid: feeb22a4-b410-4ad0-b39f-cd8807fd65fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: gallery
+label: Gallery
+type: 'canonical_entities:node'
+pattern: 'gallery/[node:title]'
+selection_criteria:
+  d3bc911a-4ac9-42d3-bfcf-46e340041d59:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d3bc911a-4ac9-42d3-bfcf-46e340041d59
+    context_mapping:
+      node: node
+    bundles:
+      gallery: gallery
+selection_logic: and
+weight: -5
+relationships: {  }

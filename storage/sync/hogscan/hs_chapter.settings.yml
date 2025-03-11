@@ -1,0 +1,23 @@
+logo_builder:
+  type: EAGLE
+  first_line:
+    text: 'HSDEV ZERO'
+    size: '50'
+    offset: '85'
+  second_line:
+    text: chapter
+    size: '50'
+    offset: '63'
+config:
+  welcome_email:
+    from: '[hogscan:chapter_email]'
+    subject: 'Welcome to the [hogscan:chapter_name] Family!'
+    body:
+      value: "[user:display-name],\r\n\r\n<h1>Lorem ipsum dolor sit amet</h1>\r\n<h2>Correct horse battery staple</h2>\r\n<p><img src='[hogscan:chapter_logo_url]></p>\r\n\r\n[user:onetime-login-url]\r\n\r\n<ul>\r\n<li>Shiny</li>\r\n<li>Disco</li>\r\n<li>Bunnies</li>\r\n</ul>\r\n\r\n<p>- The [hogscan:chapter_name] #[hogscan:chapter_number] team.</p>"
+      format: full_html
+theme_settings:
+  background_color: '#484848'
+  text_color: '#e3e3e3'
+  button_background: '#e67e22'
+  button_text: '#000000'
+  link_color: '#e67e22'

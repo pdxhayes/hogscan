@@ -1,0 +1,22 @@
+uuid: b5166d13-4c7d-45d4-8571-65b51dc7f05c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: checkin
+label: Checkin
+type: 'canonical_entities:node'
+pattern: 'event/checkin/[node:nid]'
+selection_criteria:
+  a4fb4f83-35fd-46c9-841a-b6f5b63bf411:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: a4fb4f83-35fd-46c9-841a-b6f5b63bf411
+    context_mapping:
+      node: node
+    bundles:
+      event_checkin: event_checkin
+selection_logic: and
+weight: -3
+relationships: {  }

@@ -1,0 +1,22 @@
+uuid: 4ccee28b-8a33-44f8-838d-b75f288a8d25
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hogscan
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: hogscan_help
+theme: hogscan
+region: help
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 79a32df9-bedb-4b60-b294-0bd1be0a6cc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_type
+    - node.type.team
+  module:
+    - options
+id: node.team.field_team_type
+field_name: field_team_type
+entity_type: node
+bundle: team
+label: team_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

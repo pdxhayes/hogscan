@@ -1,0 +1,17 @@
+uuid: 3402d5fb-87d2-462c-910c-a33aade0b612
+langcode: en
+status: true
+dependencies: {  }
+name: 'Email HTML'
+format: email_html
+weight: -9
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href target class style id> <b class style id> <br class style id> <div id align dir class style> <font face color class style id> <h1 align dir class style id> <h1 align dir class style id> <h2 align dir class style id> <h3 align dir class style id> <h4 align dir class style id> <h5 align dir class style id> <h6 align dir class style id> <img src align border width vspace height hspace class style id> <label class style id> <li type dir class style id> <ol type dir class style id> <p align dir class style id> <span class style id> <strong class style id> <table align border cellpadding cellspacing frame rules width dir class style id> <td width height colspan rowspan scope abbr align valign bgcolor class style id> <th width height colspan rowspan scope abbr align valign bgcolor class style id> <tr align valign dir bgcolor class style id> <u class style id> <ul dir class style id>'
+      filter_html_help: true
+      filter_html_nofollow: false

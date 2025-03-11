@@ -1,0 +1,22 @@
+uuid: 6acc54fa-e5a1-4ff5-9c16-a91966f17d0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: campaign
+label: 'Email Campaign'
+type: 'canonical_entities:node'
+pattern: 'campaign/[node:title]'
+selection_criteria:
+  e9b37d87-7cd1-4c71-bcfb-f777657c6c27:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e9b37d87-7cd1-4c71-bcfb-f777657c6c27
+    context_mapping:
+      node: node
+    bundles:
+      email_node: email_node
+selection_logic: and
+weight: -8
+relationships: {  }

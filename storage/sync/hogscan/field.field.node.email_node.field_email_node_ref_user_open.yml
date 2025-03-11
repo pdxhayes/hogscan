@@ -1,0 +1,29 @@
+uuid: af91f2bd-e75e-43d1-9e3e-564a3a2e7658
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_node_ref_user_open
+    - node.type.email_node
+id: node.email_node.field_email_node_ref_user_open
+field_name: field_email_node_ref_user_open
+entity_type: node
+bundle: email_node
+label: email_node_ref_user_open
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

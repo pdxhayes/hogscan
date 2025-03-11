@@ -1,0 +1,22 @@
+uuid: 8625c2d0-1fdc-4b4e-89e5-bf5ee42b76ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: chapter_challenge
+label: 'Chapter Challenge'
+type: 'canonical_entities:node'
+pattern: 'challenge/[node:title]'
+selection_criteria:
+  680ad979-90d0-40a1-888f-dca01d2f918f:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 680ad979-90d0-40a1-888f-dca01d2f918f
+    context_mapping:
+      node: node
+    bundles:
+      chapter_challenge: chapter_challenge
+selection_logic: and
+weight: -9
+relationships: {  }

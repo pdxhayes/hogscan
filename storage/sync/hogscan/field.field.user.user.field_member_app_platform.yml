@@ -1,0 +1,20 @@
+uuid: 2bfc3598-ed61-4d61-ae1a-6623ae370082
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_app_platform
+  module:
+    - user
+id: user.user.field_member_app_platform
+field_name: field_member_app_platform
+entity_type: user
+bundle: user
+label: member_app_platform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

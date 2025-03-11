@@ -1,0 +1,21 @@
+uuid: 78d43a3f-b0eb-4eb1-9bd3-7ae4317e5e2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_status
+  module:
+    - options
+    - user
+id: user.user.field_member_hog_status
+field_name: field_member_hog_status
+entity_type: user
+bundle: user
+label: member_hog_status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

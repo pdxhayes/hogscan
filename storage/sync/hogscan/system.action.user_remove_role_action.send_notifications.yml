@@ -1,0 +1,14 @@
+uuid: b1da8550-b374-4d17-ad2f-4e13c91d5aeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.send_notifications
+  module:
+    - user
+id: user_remove_role_action.send_notifications
+label: 'Remove the Send Notifications role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: send_notifications

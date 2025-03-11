@@ -1,0 +1,24 @@
+uuid: c196ffd0-6b96-43b6-baa4-c91cbe92c28f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_since
+  module:
+    - datetime
+    - user
+id: user.user.field_member_since
+field_name: field_member_since
+entity_type: user
+bundle: user
+label: 'Chapter Member Since'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

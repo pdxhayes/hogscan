@@ -1,0 +1,22 @@
+uuid: 017275eb-0bb0-49a3-8283-251e3eae8188
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.chapter_challenge
+  module:
+    - comment
+    - file
+    - node
+id: chapter_challenge_admin
+label: 'Chapter Challenge Admin'
+weight: -3
+is_admin: null
+permissions:
+  - 'create chapter_challenge content'
+  - 'delete chapter_challenge revisions'
+  - 'delete own files'
+  - 'revert chapter_challenge revisions'
+  - 'skip comment approval'
+  - 'view chapter_challenge revisions'
+  - 'view own unpublished content'

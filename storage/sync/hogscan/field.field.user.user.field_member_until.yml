@@ -1,0 +1,24 @@
+uuid: f5c4af0c-b750-44e5-9b95-c45e11b85a63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_until
+  module:
+    - datetime
+    - user
+id: user.user.field_member_until
+field_name: field_member_until
+entity_type: user
+bundle: user
+label: 'Chapter Member Until'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '12/31 23:59:59'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

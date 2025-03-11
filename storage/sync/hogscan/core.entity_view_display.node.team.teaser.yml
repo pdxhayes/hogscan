@@ -1,0 +1,50 @@
+uuid: c3f8b557-e729-4ab1-a1b4-c707e656e0d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.field_team_email
+    - field.field.node.team.field_team_image
+    - field.field.node.team.field_team_title
+    - field.field.node.team.field_team_type
+    - field.field.node.team.field_team_weight
+    - node.type.team
+  module:
+    - image
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  field_team_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_team_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_team_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_team_type: true
+  field_team_weight: true
+  links: true

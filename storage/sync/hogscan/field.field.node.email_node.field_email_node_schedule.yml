@@ -1,0 +1,24 @@
+uuid: 5fe9583f-8bd5-42d2-a17c-d4a408e0be77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_node_schedule
+    - node.type.email_node
+  module:
+    - datetime
+id: node.email_node.field_email_node_schedule
+field_name: field_email_node_schedule
+entity_type: node
+bundle: email_node
+label: email_node_schedule
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+1 day'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

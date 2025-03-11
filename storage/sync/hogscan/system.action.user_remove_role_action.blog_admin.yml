@@ -1,0 +1,14 @@
+uuid: ccc690be-64da-408e-abfb-9ef9b05d2388
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.blog_admin
+  module:
+    - user
+id: user_remove_role_action.blog_admin
+label: 'Remove the Blog Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: blog_admin

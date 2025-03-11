@@ -1,0 +1,14 @@
+uuid: 8eb39644-6168-4584-bb7c-c53d118e5491
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chapter_challenge_admin
+  module:
+    - user
+id: user_remove_role_action.chapter_challenge_admin
+label: 'Remove the Chapter Challenge Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chapter_challenge_admin

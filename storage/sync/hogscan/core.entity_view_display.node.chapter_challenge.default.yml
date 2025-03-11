@@ -1,0 +1,37 @@
+uuid: b668e51e-0369-4925-a6ca-40599213b39c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chapter_challenge.body
+    - field.field.node.chapter_challenge.field_challenge_locations
+    - node.type.chapter_challenge
+  module:
+    - address
+    - text
+    - user
+id: node.chapter_challenge.default
+targetEntityType: node
+bundle: chapter_challenge
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_challenge_locations:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

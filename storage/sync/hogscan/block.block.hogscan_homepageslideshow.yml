@@ -1,0 +1,50 @@
+uuid: 89adc191-dfc2-4a08-aa0d-02bc79443b14
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:528d8ec4-7a91-417a-b4ba-e975287476ef'
+  module:
+    - block_content
+    - dexp_block_settings
+    - system
+  theme:
+    - hogscan
+third_party_settings:
+  dexp_block_settings:
+    animate: ''
+    animate_delay: 0
+    background_color: ''
+    background_image: 'file:0'
+    background_image_type: default
+    background_repeat: no-repeat
+    background_size: auto
+    background_video: ''
+    background_video_start_at: null
+    exclude_block_title: 0
+    custom_class: ''
+    custom_content_class: ''
+    custom_css: ''
+    animate_duration: '1000'
+    background_position: ''
+    background_video_controls: 0
+    background_video_mute: 0
+id: hogscan_homepageslideshow
+theme: hogscan
+region: homepage_slideshow
+weight: 0
+provider: null
+plugin: 'block_content:528d8ec4-7a91-417a-b4ba-e975287476ef'
+settings:
+  id: 'block_content:528d8ec4-7a91-417a-b4ba-e975287476ef'
+  label: 'Homepage Slideshow'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

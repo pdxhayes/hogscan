@@ -1,0 +1,40 @@
+uuid: b7e83b97-62cc-4469-8e6d-50dc80014483
+langcode: en
+status: true
+dependencies:
+  module:
+    - dexp_block_settings
+    - system
+  theme:
+    - hogscan
+third_party_settings:
+  dexp_block_settings:
+    animate: ''
+    animate_delay: 0
+    background_color: ''
+    background_image: 'file:0'
+    background_image_type: default
+    background_repeat: no-repeat
+    background_size: auto
+    background_video: ''
+    background_video_start_at: null
+    exclude_block_title: 0
+    custom_class: ''
+    custom_content_class: ''
+    custom_css: ''
+    animate_duration: '1000'
+    background_position: ''
+    background_video_controls: 0
+    background_video_mute: 0
+id: hogscan_messages
+theme: hogscan
+region: status_msg
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

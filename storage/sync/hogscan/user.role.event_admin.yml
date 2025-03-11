@@ -1,0 +1,25 @@
+uuid: aa40029e-8d2c-483c-bc85-c3357528c990
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+    - node.type.event_checkin
+  module:
+    - comment
+    - file
+    - node
+id: event_admin
+label: 'Event Admin'
+weight: -4
+is_admin: null
+permissions:
+  - 'create event content'
+  - 'delete event revisions'
+  - 'delete own files'
+  - 'edit any event content'
+  - 'edit any event_checkin content'
+  - 'revert event revisions'
+  - 'skip comment approval'
+  - 'view event revisions'
+  - 'view own unpublished content'

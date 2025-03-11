@@ -1,0 +1,14 @@
+uuid: dec0d4ee-853c-459f-b126-b2d33a73a6bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.send_email_campaigns
+  module:
+    - user
+id: user_remove_role_action.send_email_campaigns
+label: 'Remove the Send Email Campaigns role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: send_email_campaigns

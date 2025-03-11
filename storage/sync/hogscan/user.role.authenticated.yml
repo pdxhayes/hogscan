@@ -1,0 +1,30 @@
+uuid: 02fb6586-57ff-4a80-9bfd-ee556bbf341c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.forum
+  module:
+    - comment
+    - file
+    - filter
+    - fontawesome
+    - node
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Chapter Member'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access fontawesome additional settings'
+  - 'change own username'
+  - 'create forum content'
+  - 'delete own files'
+  - 'edit own comments'
+  - 'post comments'
+  - 'use text format basic_html'

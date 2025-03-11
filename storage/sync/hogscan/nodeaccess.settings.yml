@@ -1,0 +1,782 @@
+_core:
+  default_config_hash: Zno4MMkbreZeJZgnY0DXCPksXkuYye3MyIFlVuh-xLc
+allowed_grant_operations:
+  grant_view: true
+  grant_update: true
+  grant_delete: false
+bundles_roles_grants:
+  article:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  chapter_challenge:
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    chapter_challenge_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    anonymous:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  email_node:
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    send_email_campaigns:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    anonymous:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    content_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  event:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    event_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  event_checkin:
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    event_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    member_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    anonymous:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    content_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  event_rsvp:
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    event_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    member_read:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    author:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    anonymous:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    content_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  forum:
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    member_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    author:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    anonymous:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  gallery:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    gallery_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  newsletter:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  page:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+  team:
+    anonymous:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    authenticated:
+      grant_view: 1
+      grant_update: 0
+      grant_delete: 0
+    administrator:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    content_admin:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    webmaster:
+      grant_view: 1
+      grant_update: 1
+      grant_delete: 1
+    perform_checkins:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    blog_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    gallery_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    event_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    chapter_challenge_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_notifications:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    send_email_campaigns:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_read:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    member_admin:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+    author:
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+grants_tab_availability:
+  article: false
+  chapter_challenge: true
+  email_node: false
+  event: false
+  event_checkin: false
+  event_rsvp: false
+  forum: false
+  gallery: false
+  newsletter: false
+  page: true
+  team: false
+map_rid_gid:
+  anonymous: 1
+  authenticated: 2
+  administrator: 4
+  perform_checkins: 5
+  blog_admin: 6
+  gallery_admin: 7
+  event_admin: 8
+  chapter_challenge_admin: 9
+  content_admin: 10
+  send_notifications: 11
+  send_email_campaigns: 12
+  member_read: 13
+  member_admin: 14
+  webmaster: 15
+  comment_forum_admin: 16
+roles_settings:
+  anonymous:
+    display_name: 'Anonymous Visitor'
+    name: 'Anonymous Visitor'
+    weight: -10
+    selected: true
+  authenticated:
+    display_name: 'Chapter Member'
+    name: 'Chapter Member'
+    weight: -9
+    selected: true
+  perform_checkins:
+    display_name: 'Perform Check-ins'
+    name: 'Perform Check-ins'
+    weight: -8
+    selected: false
+  blog_admin:
+    display_name: 'Blog Admin'
+    name: 'Blog Admin'
+    weight: -7
+    selected: true
+  gallery_admin:
+    display_name: 'Gallery Admin'
+    name: 'Gallery Admin'
+    weight: -6
+    selected: true
+  event_admin:
+    display_name: 'Event Admin'
+    name: 'Event Admin'
+    weight: -5
+    selected: true
+  chapter_challenge_admin:
+    display_name: 'Chapter Challenge Admin'
+    name: 'Chapter Challenge Admin'
+    weight: -4
+    selected: true
+  content_admin:
+    display_name: 'Content Admin'
+    name: 'Content Admin'
+    weight: -3
+    selected: true
+  send_notifications:
+    display_name: 'Send Notifications'
+    name: 'Send Notifications'
+    weight: -2
+    selected: false
+  send_email_campaigns:
+    display_name: 'Send Email Campaigns'
+    name: 'Send Email Campaigns'
+    weight: -1
+    selected: false
+  member_read:
+    display_name: 'Member Read *'
+    name: 'Member Read *'
+    weight: 0
+    selected: false
+  member_admin:
+    display_name: 'Member Admin *'
+    name: 'Member Admin *'
+    weight: 1
+    selected: true
+  webmaster:
+    display_name: 'Webmaster *'
+    name: 'Webmaster *'
+    weight: 2
+    selected: true
+  administrator:
+    display_name: Administrator
+    name: Administrator
+    weight: 3
+    selected: false
+  comment_forum_admin:
+    display_name: 'Comment & Forum Admin'
+    name: 'Comment & Forum Admin'
+    weight: 0
+    selected: false

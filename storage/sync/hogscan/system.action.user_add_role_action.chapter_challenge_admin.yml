@@ -1,0 +1,14 @@
+uuid: 37a83fc0-2046-474b-add3-8de1e6374ff1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.chapter_challenge_admin
+  module:
+    - user
+id: user_add_role_action.chapter_challenge_admin
+label: 'Add the Chapter Challenge Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chapter_challenge_admin

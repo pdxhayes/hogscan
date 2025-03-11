@@ -1,0 +1,14 @@
+uuid: b13b6100-8c3f-45b6-8348-9f07e4802da0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gallery_admin
+  module:
+    - user
+id: user_add_role_action.gallery_admin
+label: 'Add the Gallery Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gallery_admin

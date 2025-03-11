@@ -1,0 +1,14 @@
+uuid: a477bb47-629b-49f4-b50c-29a52a8d40d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.comment_forum_admin
+  module:
+    - user
+id: user_remove_role_action.comment_forum_admin
+label: 'Remove the Comment &amp; Forum Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: comment_forum_admin

@@ -1,0 +1,57 @@
+uuid: 7c888b3c-0b81-496d-94bb-0bb8c93ec4bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event_checkin.field_checkin_mileage
+    - field.field.node.event_checkin.field_checkin_points
+    - field.field.node.event_checkin.field_ref_event
+    - field.field.node.event_checkin.field_ref_user
+    - node.type.event_checkin
+  module:
+    - user
+id: node.event_checkin.default
+targetEntityType: node
+bundle: event_checkin
+mode: default
+content:
+  field_checkin_mileage:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_checkin_points:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ref_event:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ref_user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

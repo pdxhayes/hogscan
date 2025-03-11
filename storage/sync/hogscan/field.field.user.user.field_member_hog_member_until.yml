@@ -1,0 +1,24 @@
+uuid: 54eb15b9-3075-4213-8439-bcdd26f0aefc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_member_until
+  module:
+    - datetime
+    - user
+id: user.user.field_member_hog_member_until
+field_name: field_member_hog_member_until
+entity_type: user
+bundle: user
+label: member_hog_member_until
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+30 days'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

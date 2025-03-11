@@ -1,0 +1,55 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: /themes/hogscan/favicon.ico
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: themes/hogscan/logo.png
+  url: ''
+  use_default: false
+schemas:
+  bootstrap: 8000
+  hogscan: 8000
+breadcrumb: '0'
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+  officer_nav: ''
+  chapter_branding: ''
+  page_title: ''
+  homepage_slideshow: ''
+  status_msg: ''
+  highlight_hero: ''
+  highlight_one: ''
+  highlight_two: ''
+  highlight_three: ''
+  highlight_four: ''
+  parallax: ''
+  chapter_news: ''
+  team_members: ''
+  footer_one: ''
+  footer_two: ''
+  footer_three: ''
+  footer_four: ''
+  copyright: ''
+  powered: ''
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+cdn_provider: jsdelivr
+apply: Apply
+reset_http_request_cache: ''
+table: ''

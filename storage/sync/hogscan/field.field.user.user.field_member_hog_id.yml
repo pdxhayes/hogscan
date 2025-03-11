@@ -1,0 +1,20 @@
+uuid: b14c66bd-db1a-4d7d-b361-9bd92f1723f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_id
+  module:
+    - user
+id: user.user.field_member_hog_id
+field_name: field_member_hog_id
+entity_type: user
+bundle: user
+label: 'H.O.G. ID#'
+description: 'Must contain the country code, without spaces (US1234567). Must also be unique.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,17 @@
+uuid: 0336730a-3981-4a01-93fc-3add552d3021
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Team Member'
+type: team
+description: "<em>Team Members</em> include all of your Officers, Road Captains, and other Volunteers.<br>\r\n&nbsp; • The first 4 Primary Officers will display on the homepage.  Chapter Officers, Road Captains and Volunteers have pages in the about us menu.<br>\r\n&nbsp; • Use the checkboxes to define which pages the record is displayed on.<br>\r\n&nbsp; • Use the weight field to manually control the display order.  Higher weight values display earler.<br>"
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -17,7 +17,7 @@ function hs_form_user_register_form_alter(&$form, FormStateInterface $form_state
 
   // turn off autocomplete
   $form['#attributes']['autocomplete'] = 'off';
-  $form['#prefix'] = t("This web page allows administrators to add members. National H.O.G. ID is required and must be unique. Email address is NOT required, but if included, it must be unique.");
+  $form['#prefix'] = t("This form allows administrators to add members. National H.O.G. ID is required and must be unique. Email address is NOT required, but if included, it must be unique.");
 
   // Generate a random username for hidden form field. Final default username is determined on validate.
   $tmp_username = md5(time() . rand(1,1000));

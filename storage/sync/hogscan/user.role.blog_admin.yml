@@ -1,0 +1,24 @@
+uuid: 7c46dcfe-e08a-4410-b7e2-f7df8fb57324
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.chapter_challenge
+  module:
+    - comment
+    - file
+    - node
+id: blog_admin
+label: 'Blog Admin'
+weight: -6
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete article revisions'
+  - 'delete own files'
+  - 'edit any chapter_challenge content'
+  - 'revert article revisions'
+  - 'skip comment approval'
+  - 'view article revisions'
+  - 'view own unpublished content'

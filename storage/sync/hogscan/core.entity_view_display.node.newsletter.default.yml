@@ -1,0 +1,38 @@
+uuid: ef5a1817-5d09-4472-8bf8-993bb7e4e027
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.newsletter.body
+    - field.field.node.newsletter.field_pdf_newsletter
+    - node.type.newsletter
+  module:
+    - file
+    - text
+    - user
+id: node.newsletter.default
+targetEntityType: node
+bundle: newsletter
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_pdf_newsletter:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

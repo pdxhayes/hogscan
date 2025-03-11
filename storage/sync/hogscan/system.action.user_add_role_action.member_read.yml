@@ -1,0 +1,14 @@
+uuid: bd775295-a13d-47cf-a9bf-d102cf64a970
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_read
+  module:
+    - user
+id: user_add_role_action.member_read
+label: 'Add the Member Read * role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: member_read

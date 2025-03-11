@@ -2,10 +2,11 @@
 
 namespace Drupal\hs_chapter\Form;
 
+use Drupal;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\File\FileSystemInterface;
+//use Drupal\Core\Config\ConfigFactoryInterface;
+//use Drupal\Core\File\FileSystemInterface;
 
 
 /**
@@ -20,7 +21,8 @@ class ChapterLogoForm extends FormBase {
     return 'chapter_logo_form';
   }
 
-  protected function getEditableConfigNames() {
+  protected function getEditableConfigNames(): array
+  {
     return [
       static::SETTINGS,
     ];
@@ -37,7 +39,7 @@ class ChapterLogoForm extends FormBase {
 
 
     $form['image'] = array(
-      '#markup' => '<img id="generated-img" style="display:none" src="" />',
+      '#markup' => '<img alt="Generated Image" id="generated-img" style="display:none" src="" />',
       '#allowed_tags' => ['img'],
     );
     $form['canvas'] = array(

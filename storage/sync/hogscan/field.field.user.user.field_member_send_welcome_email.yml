@@ -1,0 +1,24 @@
+uuid: a935900b-458d-4f17-8ac3-86d9a12d046d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_send_welcome_email
+  module:
+    - user
+id: user.user.field_member_send_welcome_email
+field_name: field_member_send_welcome_email
+entity_type: user
+bundle: user
+label: 'Send Welcome Email'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'true'
+  off_label: 'false'
+field_type: boolean

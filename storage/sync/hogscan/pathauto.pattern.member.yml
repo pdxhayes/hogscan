@@ -1,0 +1,14 @@
+uuid: 27b9d5dd-fbf6-48cb-8c7c-39e28b8d67ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: member
+label: Member
+type: 'canonical_entities:user'
+pattern: 'member/[user:display-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

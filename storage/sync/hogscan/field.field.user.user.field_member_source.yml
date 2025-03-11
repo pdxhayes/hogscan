@@ -1,0 +1,21 @@
+uuid: 9e49aea1-dd7b-42f8-8c0e-0f64fc6fdebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_source
+  module:
+    - options
+    - user
+id: user.user.field_member_source
+field_name: field_member_source
+entity_type: user
+bundle: user
+label: 'Member Source'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

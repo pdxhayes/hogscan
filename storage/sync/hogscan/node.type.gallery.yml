@@ -1,0 +1,17 @@
+uuid: 6e88a049-4f80-4aab-8de6-515ab6493b1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Image Gallery'
+type: gallery
+description: "Use <em>galleries</em> to add collections of images on your Chapter website.<br>\r\n&nbsp; • Drag and drop images into the drop zone.<br>\r\n&nbsp; • Galleries are displayed in reverse chronological order, meaning the newest galleries are displayed first.<br>\r\n&nbsp; • Manually order galleries by setting the \"Authored on\" date in the publishing settings to the date that the pictures were taken.<br>"
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

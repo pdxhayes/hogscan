@@ -1,0 +1,14 @@
+uuid: bf39a3c4-c54f-4809-84d2-cf7db6fc1872
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gallery_admin
+  module:
+    - user
+id: user_remove_role_action.gallery_admin
+label: 'Remove the Gallery Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gallery_admin

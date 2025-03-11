@@ -1,0 +1,24 @@
+uuid: 1af9576e-c3c9-4a19-9f10-82c99e83311b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_points
+  module:
+    - user
+id: user.user.field_member_points
+field_name: field_member_points
+entity_type: user
+bundle: user
+label: Points
+description: 'Calculated daily.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,356 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+body {
+  margin: 0px;
+  color: var( --text-color );
+  background-color: var( --background-color );
+}
+a {
+  color: var( --link-color );
+}
+a:hover {
+  color: var( --link-color );
+}
+h2 {
+  /*   font-size: 20px; */
+}
+
+h3 {
+  /*   font-size: 18px; */
+}
+
+.btn-color {
+  background-color: var( --button-background );
+  color: var( --button-text-color );
+}
+
+/* a.button {
+  -webkit-appearance: button;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+} */
+
+
+#branding_logo {
+  max-width: 106px;
+  height: 41px;
+}
+
+#branding_text {
+  margin: 10px;
+  display: block;
+  float: left;
+}
+
+#branding_name {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+#branding_slogan {
+  top: -3px;
+  font-size: 12px;
+}
+
+#page_title_wrapper {
+  background: #272727;
+  height: 100px;
+  margin: 15px 0px;
+}
+
+h1.page-header {
+  color: var( --secondary-color );
+  border-bottom: none;
+  line-height: 100px;
+}
+
+#block-chapter {
+  background: #000000;
+  height: 35px;
+}
+
+#chapter_header {
+  padding: 0px;
+  margin-top: 15px;
+}
+
+#homepage_slideshow_outer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+#chapter_slideshow_inner {
+  /*   padding: 0px; */
+  height: 420px;
+  background: #CDCDCD;
+}
+
+#parallax_wrapper {
+  height: 420px;
+  background: #272727;
+  color: #dedede;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+#parallax_wrapper span.parallax_over {
+  background: url(../images/gridtile.png) rgba(0,0,0,0.4);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+
+#chapter_footer_fluid {
+  margin: 15px 0px;
+  padding: 0px 0px 40px 0px;
+  background: #272727;
+  color: #dedede;
+}
+
+#page_bottom {
+  margin-bottom: 75px;
+}
+
+
+#chapter-hs-chapterchapter-dashboard, #chapter-hs-chapterchapter-content, #chapter-hs-chapterchapter-members, #chapter-hs-chapterchapter-reports, #chapter-hs-chapterchapter-config, #chapter-hs-chapterchapter-util, #chapter-hs-chapterhelp-menu {
+  position: relative;
+  padding-left: 1.75em;
+  background-color: #000000;
+  border-right: 1px solid #eeeeee;
+}
+
+#chapter-hs-chapterchapter-dashboard a:hover, #chapter-hs-chapterchapter-content a:hover, #chapter-hs-chapterchapter-members a:hover, #chapter-hs-chapterchapter-reports a:hover, #chapter-hs-chapterchapter-config a:hover, #chapter-hs-chapterchapter-util a:hover, #chapter-hs-chapterhelp-menu a:hover {
+  background-color: transparent;
+}
+
+#chapter-hs-chapterchapter-dashboard a:active, #chapter-hs-chapterchapter-content a:active, #chapter-hs-chapterchapter-members a:active, #chapter-hs-chapterchapter-reports a:active, #chapter-hs-chapterchapter-config a:active, #chapter-hs-chapterchapter-util a:active, #chapter-hs-chapterhelp-menu a:active {
+  background-color: transparent;
+}
+
+#chapter-hs-chapterchapter-dashboard::before, #chapter-hs-chapterchapter-content::before, #chapter-hs-chapterchapter-members::before, #chapter-hs-chapterchapter-reports::before, #chapter-hs-chapterchapter-config::before, #chapter-hs-chapterchapter-util::before, #chapter-hs-chapterhelp-menu::before {
+  position: absolute;
+  top: 0;
+  left: 0.6667em;
+  display: block;
+  width: 20px;
+  height: 100%;
+  content: "";
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: 20px auto;
+}
+
+#chapter-hs-chapterchapter-dashboard::before {
+  background-image: url(../icons/eeeeee/gauge-solid.svg);
+}
+#chapter-hs-chapterchapter-content::before {
+  /*   height: 18px;
+    width: 14px;
+    top: 5px; */
+  background-image: url(../icons/eeeeee/pen-to-square-solid.svg);
+}
+#chapter-hs-chapterchapter-members::before {
+  background-image: url(../icons/eeeeee/users.svg);
+}
+#chapter-hs-chapterchapter-reports::before {
+  background-image: url(../icons/eeeeee/chart-bar-solid.svg);
+}
+#chapter-hs-chapterchapter-config::before {
+  background-image: url(../icons/eeeeee/gears.svg);
+}
+#chapter-hs-chapterchapter-util::before {
+  background-image: url(../icons/eeeeee/screwdriver-wrench.svg);
+}
+#chapter-hs-chapterhelp-menu::before {
+  background-image: url(../icons/eeeeee/circle-question-solid.svg);
+}
+
+.view-header {
+  margin-bottom: 30px;
+}
+
+.team-teaser {
+  margin-bottom: 15px;
+}
+
+.team-teaser-name {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-teaser-position {
+  font-style: italic;
+  text-align: center;
+}
+
+.team-teaser-email {
+  text-align: center;
+}
+
+.field--name-field-team-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*
+    SUPERFISH STYLES
+ */
+
+ul.sf-menu {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+ul.sf-menu.sf-navbar {
+  width: 100%;
+}
+ul.sf-menu ul {
+  margin: 0;
+  padding: 0;
+}
+ul.sf-menu a,
+ul.sf-menu a:visited,
+ul.sf-menu span.nolink {
+  border: 0 none;
+  color: var( --link-color );
+  padding: 0.75em 1em;
+}
+ul.sf-menu a.sf-with-ul,
+ul.sf-menu span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+}
+ul.sf-menu.rtl a.sf-with-ul,
+ul.sf-menu.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+ul.sf-menu span.sf-description {
+  color: var( --link-color );
+  display: block;
+  font-size: smaller;
+  line-height: 1.5;
+  margin: 0.25em 0 0 0;
+  padding: 0;
+}
+ul.sf-menu li,
+ul.sf-menu.sf-navbar {
+  background: var( --background-color );
+}
+ul.sf-menu li li,
+ul.sf-menu.sf-navbar > li > ul {
+  background: var( --background-color );
+}
+ul.sf-menu li li li {
+  background: var( --background-color );
+}
+ul.sf-menu li:hover,
+ul.sf-menu li.sfHover,
+ul.sf-menu a:focus,
+ul.sf-menu a:hover,
+ul.sf-menu span.nolink:hover {
+  background: var( --background-color );
+  outline: 0;
+}
+div.sf-accordion-toggle a {
+  background: var( --background-color );
+  color: var( --link-color );
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em 3em 1em 1em;
+  position: relative;
+}
+div.sf-accordion-toggle  > a:after {
+  content: "≡";
+  font-size: 2em;
+  position: absolute;
+  right: 0.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  speak: none;
+}
+div.sf-accordion-toggle a.sf-expanded,
+ul.sf-menu.sf-accordion li.sf-expanded {
+  background: var( --background-color );
+}
+div.sf-accordion-toggle a.sf-expanded,
+ul.sf-menu.sf-accordion li.sf-expanded > a,
+ul.sf-menu.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold;
+}
+ul.sf-menu.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499;
+}
+ul.sf-menu.sf-accordion li li a,
+ul.sf-menu.sf-accordion li li span.nolink {
+  padding-left: 2em;
+}
+ul.sf-menu.sf-accordion li li li a,
+ul.sf-menu.sf-accordion li li li span.nolink {
+  padding-left: 3em;
+}
+ul.sf-menu.sf-accordion li li li li a,
+ul.sf-menu.sf-accordion li li li li span.nolink {
+  padding-left: 4em;
+}
+ul.sf-menu.sf-accordion li li li li li a,
+ul.sf-menu.sf-accordion li li li li li span.nolink {
+  padding-left: 5em;
+}
+ul.sf-menu.rtl.sf-accordion li li a,
+ul.sf-menu.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em;
+}
+ul.sf-menu.rtl.sf-accordion li li li a,
+ul.sf-menu.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em;
+}
+ul.sf-menu.rtl.sf-accordion li li li li a,
+ul.sf-menu.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em;
+}
+ul.sf-menu.rtl.sf-accordion li li li li li a,
+ul.sf-menu.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em;
+}
+ul.sf-menu li.sf-multicolumn-wrapper ol,
+ul.sf-menu li.sf-multicolumn-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+ul.sf-menu li.sf-multicolumn-wrapper a.menuparent,
+ul.sf-menu li.sf-multicolumn-wrapper span.nolink.menuparent {
+  font-weight: bold;
+}

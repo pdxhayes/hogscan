@@ -1,0 +1,24 @@
+uuid: 3e1e8dc3-891c-4f60-be43-1ed8ed032764
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_gen_card
+  module:
+    - user
+id: user.user.field_member_gen_card
+field_name: field_member_gen_card
+entity_type: user
+bundle: user
+label: 'Generate printable membership card'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

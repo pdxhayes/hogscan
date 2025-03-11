@@ -1,0 +1,14 @@
+uuid: d11ee524-93b2-4f2f-9cd2-2c7a6d3eb1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.send_email_campaigns
+  module:
+    - user
+id: user_add_role_action.send_email_campaigns
+label: 'Add the Send Email Campaigns role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: send_email_campaigns

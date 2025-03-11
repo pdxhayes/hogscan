@@ -1,0 +1,27 @@
+uuid: 0e864d9c-103f-4e72-84ff-3c0cdd510384
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_gpx_files
+    - node.type.event
+  module:
+    - file
+id: node.event.field_event_gpx_files
+field_name: field_event_gpx_files
+entity_type: node
+bundle: event
+label: event_gpx_files
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: uploads/gpx/event
+  file_extensions: gpx
+  max_filesize: ''
+  description_field: false
+field_type: file

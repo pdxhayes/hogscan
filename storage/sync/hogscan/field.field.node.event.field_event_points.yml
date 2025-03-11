@@ -1,0 +1,23 @@
+uuid: 8245a94c-bfb5-462a-b69a-27320a0e6391
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_points
+    - node.type.event
+id: node.event.field_event_points
+field_name: field_event_points
+entity_type: node
+bundle: event
+label: event_points
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

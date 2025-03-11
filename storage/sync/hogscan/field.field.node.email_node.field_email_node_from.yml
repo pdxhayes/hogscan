@@ -1,0 +1,19 @@
+uuid: ebc6acb7-1643-421d-a67f-58868cff5438
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_node_from
+    - node.type.email_node
+id: node.email_node.field_email_node_from
+field_name: field_email_node_from
+entity_type: node
+bundle: email_node
+label: email_node_from
+description: 'The "From" address must be in the @[hogscan:chapter_domain] chapter domain.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

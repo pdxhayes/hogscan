@@ -1,0 +1,111 @@
+uuid: 600a65f1-ab5f-4675-900d-9a4c7a0ebdc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_hogscan_migrate_uid
+    - field.field.user.user.field_member_address
+    - field.field.user.user.field_member_admin_notes
+    - field.field.user.user.field_member_app_lat
+    - field.field.user.user.field_member_app_long
+    - field.field.user.user.field_member_app_platform
+    - field.field.user.user.field_member_app_push_token
+    - field.field.user.user.field_member_email_opt_in
+    - field.field.user.user.field_member_first_name
+    - field.field.user.user.field_member_gen_card
+    - field.field.user.user.field_member_hog_first_name
+    - field.field.user.user.field_member_hog_id
+    - field.field.user.user.field_member_hog_last_name
+    - field.field.user.user.field_member_hog_life_member
+    - field.field.user.user.field_member_hog_member_since
+    - field.field.user.user.field_member_hog_member_type
+    - field.field.user.user.field_member_hog_member_until
+    - field.field.user.user.field_member_hog_middle_name
+    - field.field.user.user.field_member_hog_mileage_2018
+    - field.field.user.user.field_member_hog_mileage_2019
+    - field.field.user.user.field_member_hog_mileage_2020
+    - field.field.user.user.field_member_hog_mileage_2021
+    - field.field.user.user.field_member_hog_mileage_2022
+    - field.field.user.user.field_member_hog_mileage_life
+    - field.field.user.user.field_member_hog_officer_role
+    - field.field.user.user.field_member_hog_status
+    - field.field.user.user.field_member_ice_name
+    - field.field.user.user.field_member_ice_phone
+    - field.field.user.user.field_member_last_name
+    - field.field.user.user.field_member_nick_name
+    - field.field.user.user.field_member_notification_opt_in
+    - field.field.user.user.field_member_phone
+    - field.field.user.user.field_member_points
+    - field.field.user.user.field_member_qr
+    - field.field.user.user.field_member_release_until
+    - field.field.user.user.field_member_send_welcome_email
+    - field.field.user.user.field_member_since
+    - field.field.user.user.field_member_source
+    - field.field.user.user.field_member_until
+    - field.field.user.user.field_ref_notification_groups
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: kD2TjItfNDKFw2CFJQfuv4Ys6qg3uYa4hCJYN2jreec
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_hogscan_migrate_uid: true
+  field_member_address: true
+  field_member_admin_notes: true
+  field_member_app_lat: true
+  field_member_app_long: true
+  field_member_app_platform: true
+  field_member_app_push_token: true
+  field_member_email_opt_in: true
+  field_member_first_name: true
+  field_member_gen_card: true
+  field_member_hog_first_name: true
+  field_member_hog_id: true
+  field_member_hog_last_name: true
+  field_member_hog_life_member: true
+  field_member_hog_member_since: true
+  field_member_hog_member_type: true
+  field_member_hog_member_until: true
+  field_member_hog_middle_name: true
+  field_member_hog_mileage_2018: true
+  field_member_hog_mileage_2019: true
+  field_member_hog_mileage_2020: true
+  field_member_hog_mileage_2021: true
+  field_member_hog_mileage_2022: true
+  field_member_hog_mileage_life: true
+  field_member_hog_officer_role: true
+  field_member_hog_status: true
+  field_member_ice_name: true
+  field_member_ice_phone: true
+  field_member_last_name: true
+  field_member_nick_name: true
+  field_member_notification_opt_in: true
+  field_member_phone: true
+  field_member_points: true
+  field_member_qr: true
+  field_member_release_until: true
+  field_member_send_welcome_email: true
+  field_member_since: true
+  field_member_source: true
+  field_member_until: true
+  field_ref_notification_groups: true
+  member_for: true

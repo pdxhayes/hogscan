@@ -1,0 +1,24 @@
+uuid: 6614cb55-b027-44ce-a00d-b56e66438798
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.chapter_challenge
+  module:
+    - text
+id: node.chapter_challenge.body
+field_name: body
+entity_type: node
+bundle: chapter_challenge
+label: 'Challenge Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

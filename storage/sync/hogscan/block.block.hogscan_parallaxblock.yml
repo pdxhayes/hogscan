@@ -1,0 +1,50 @@
+uuid: a889e5f8-23fa-4b4f-9b86-269c5755b654
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:22d2af72-9648-4fc2-895f-85b81629d20f'
+  module:
+    - block_content
+    - dexp_block_settings
+    - system
+  theme:
+    - hogscan
+third_party_settings:
+  dexp_block_settings:
+    animate: ''
+    animate_delay: 0
+    background_color: ''
+    background_image: 'file:0'
+    background_image_type: default
+    background_repeat: no-repeat
+    background_size: auto
+    background_video: ''
+    background_video_start_at: null
+    exclude_block_title: 0
+    custom_class: ''
+    custom_content_class: ''
+    custom_css: ''
+    animate_duration: '1000'
+    background_position: ''
+    background_video_controls: 0
+    background_video_mute: 0
+id: hogscan_parallaxblock
+theme: hogscan
+region: parallax
+weight: 0
+provider: null
+plugin: 'block_content:22d2af72-9648-4fc2-895f-85b81629d20f'
+settings:
+  id: 'block_content:22d2af72-9648-4fc2-895f-85b81629d20f'
+  label: 'Parallax Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

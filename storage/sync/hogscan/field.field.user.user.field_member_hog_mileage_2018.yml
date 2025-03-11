@@ -1,0 +1,24 @@
+uuid: fdce9dd6-670e-41ae-a6a8-d1d997421f15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_mileage_2018
+  module:
+    - user
+id: user.user.field_member_hog_mileage_2018
+field_name: field_member_hog_mileage_2018
+entity_type: user
+bundle: user
+label: member_hog_mileage_2018
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

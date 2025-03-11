@@ -143,7 +143,7 @@ $config['hog_sponsor_postal'] = $sponsor_postal;
 $config['hog_sponsor_country'] = $sponsor_country;
 
 // Fileystem Config
-$settings['file_public_path'] = "sites/$chapter_number.hogscan.com/files";
+$settings['file_public_path'] = "sites/all/files";
 $settings['file_private_path'] = $app_root_parent . '/storage/private/';
 $settings['file_temp_path'] = '/tmp/';
 $settings['file_default_scheme'] = 'public';
@@ -158,16 +158,16 @@ $settings['s3fs.access_key'] = $s3fs_access_key;
 $settings['s3fs.secret_key'] = $s3fs_secret_key;
 $settings['s3fs.use_s3_for_public'] = TRUE;
 // $settings['s3fs.use_s3_for_private'] = TRUE;
-$config['s3fs.settings']['public_folder'] = 'public';
-// $config['s3fs.settings']['private_folder'] = 'private';
+$config['s3fs.settings']['public_folder'] = 's3fs-public';
+// $config['s3fs.settings']['private_folder'] = 's3fs-private';
 
 
-$config['s3fs.settings']['bucket'] = "hsd9";
+$config['s3fs.settings']['bucket'] = "hogchapters";
 $config['s3fs.settings']['region'] = 'us-west-2';
 $config['s3fs.settings']['root_folder'] = $chapter_number;
 
 // Public file base url.
-$settings['file_public_base_url'] = 'https://hsd9.s3.us-west-2.amazonaws.com/' . $chapter_number . '/public/';
+$settings['file_public_base_url'] = 'https://hogchapters.s3.us-west-2.amazonaws.com/' . $chapter_number . '/s3fs-public/';
 
 
 $settings['state_cache'] = TRUE;

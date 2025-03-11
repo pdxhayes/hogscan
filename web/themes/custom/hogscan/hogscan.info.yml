@@ -1,0 +1,40 @@
+type: theme
+base theme: bootstrap
+core_version_requirement: ^9 || ^10
+
+name: 'HOG[SCAN]'
+description: 'A Drupal Bootstrap 3 based sub-theme.'
+package: 'Bootstrap'
+
+libraries:
+  - hogscan/global-styling
+  - hogscan/global-scripts
+
+regions:
+  page_top: 'Page top'
+  officer_nav: 'Officer Navigation'
+  chapter_branding: 'Chapter Branding'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  page_title: 'Page Title'
+  homepage_slideshow: 'Homepage Slideshow'
+  status_msg: 'Status Messages'
+  help: 'Help'
+  content: 'Content'
+  highlight_hero: 'Highlight Hero'
+  highlight_one: 'Highlight One'
+  highlight_two: 'Highlight Two'
+  highlight_three: 'Highlight Three'
+  highlight_four: 'Highlight Four'
+  parallax: 'Parallax'
+  chapter_news: 'Chapter News'
+  team_members: 'Team Members'
+  footer_one: 'Chapter Footer One'
+  footer_two: 'Chapter Footer Two'
+  footer_three: 'Chapter Footer Three'
+  footer_four: 'Chapter Footer Four'
+  footer: 'Footer'
+  copyright: 'Copyright'
+  powered: 'Powered by HOG[SCAN]'
+  page_bottom: 'Page bottom'
+

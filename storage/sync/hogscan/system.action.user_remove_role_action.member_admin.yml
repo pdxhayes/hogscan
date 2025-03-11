@@ -1,0 +1,14 @@
+uuid: d219bb3e-382f-4458-83a2-aa73c03858a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_admin
+  module:
+    - user
+id: user_remove_role_action.member_admin
+label: 'Remove the Member Admin * role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: member_admin

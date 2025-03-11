@@ -1,0 +1,5 @@
+name: 'DrupalExp Block Settings'
+type: module
+description: 'Provide Advanced Block Settings'
+core_version_requirement: ^9 || ^10
+package: DrupalExp

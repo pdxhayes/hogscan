@@ -1,0 +1,20 @@
+uuid: 8a0c512c-9419-497f-b0f3-4f190c4f5db3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_admin_notes
+  module:
+    - user
+id: user.user.field_member_admin_notes
+field_name: field_member_admin_notes
+entity_type: user
+bundle: user
+label: 'Administrative Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

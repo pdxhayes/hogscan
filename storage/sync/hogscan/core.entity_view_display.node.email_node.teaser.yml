@@ -1,0 +1,40 @@
+uuid: 4f9687c7-9ece-4864-9800-eb8c25c1a8c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.email_node.body
+    - field.field.node.email_node.field_email_node_from
+    - field.field.node.email_node.field_email_node_ref_user_open
+    - field.field.node.email_node.field_email_node_schedule
+    - field.field.node.email_node.field_email_node_send_test
+    - field.field.node.email_node.field_ref_notification_group
+    - node.type.email_node
+  module:
+    - text
+    - user
+id: node.email_node.teaser
+targetEntityType: node
+bundle: email_node
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email_node_from: true
+  field_email_node_ref_user_open: true
+  field_email_node_schedule: true
+  field_email_node_send_test: true
+  field_ref_notification_group: true

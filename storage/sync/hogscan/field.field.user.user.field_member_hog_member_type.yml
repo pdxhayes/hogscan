@@ -1,0 +1,21 @@
+uuid: 030c2f4c-76ff-4543-a955-124638de9a46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_member_type
+  module:
+    - options
+    - user
+id: user.user.field_member_hog_member_type
+field_name: field_member_hog_member_type
+entity_type: user
+bundle: user
+label: member_hog_member_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

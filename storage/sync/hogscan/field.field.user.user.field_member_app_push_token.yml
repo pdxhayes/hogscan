@@ -1,0 +1,20 @@
+uuid: c9ccab52-5cb6-44a9-9a84-4b99effc1d26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_app_push_token
+  module:
+    - user
+id: user.user.field_member_app_push_token
+field_name: field_member_app_push_token
+entity_type: user
+bundle: user
+label: member_app_push_token
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

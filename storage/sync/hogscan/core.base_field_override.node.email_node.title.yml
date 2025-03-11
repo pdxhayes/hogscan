@@ -1,0 +1,18 @@
+uuid: cb8a662a-9e4c-411f-bdae-7a2d8c91601c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email_node
+id: node.email_node.title
+field_name: title
+entity_type: node
+bundle: email_node
+label: 'Campaign Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

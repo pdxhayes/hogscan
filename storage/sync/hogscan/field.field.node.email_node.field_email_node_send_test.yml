@@ -1,0 +1,19 @@
+uuid: eb63fb93-03d6-4099-8371-200fc353e06b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_node_send_test
+    - node.type.email_node
+id: node.email_node.field_email_node_send_test
+field_name: field_email_node_send_test
+entity_type: node
+bundle: email_node
+label: email_node_send_test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,14 @@
+uuid: de1bbbc6-603a-483f-9cad-ee7f63acd385
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_admin
+  module:
+    - user
+id: user_add_role_action.member_admin
+label: 'Add the Member Admin * role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: member_admin

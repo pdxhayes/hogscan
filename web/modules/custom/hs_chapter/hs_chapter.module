@@ -27,7 +27,7 @@
   $hs_settings['logo_builder']['second_line']['offset'] = '47';
 
   $hs_settings['config']['test'] = 'undefined';
-  $hs_settings['config']['last_national_import'] = '2022-01-01';
+  $hs_settings['config']['last_national_import'] = '2025-01-01';
   $hs_settings['config']['auto_archive']['enabled'] = true;
   $hs_settings['config']['auto_archive']['grace_days'] = '90';
   $hs_settings['config']['welcome_email']['from'] = '';

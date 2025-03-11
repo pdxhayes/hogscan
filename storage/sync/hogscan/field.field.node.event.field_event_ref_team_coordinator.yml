@@ -1,0 +1,29 @@
+uuid: 49b13c8a-e043-440c-b5cc-457112a7d052
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_ref_team_coordinator
+    - node.type.event
+    - node.type.team
+id: node.event.field_event_ref_team_coordinator
+field_name: field_event_ref_team_coordinator
+entity_type: node
+bundle: event
+label: event_ref_team_coordinator
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      team: team
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

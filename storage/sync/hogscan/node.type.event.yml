@@ -1,0 +1,17 @@
+uuid: 5e283ca5-4e38-4b61-af90-29a67c90ec14
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: "Use <em>events</em> for events to be displayed on your Chapter calendars.<br>\r\n&nbsp; • Events can be open, closed, rides, dealer events, and others..<br>\r\n&nbsp; • Events have disclaimers based on the type of event.<br>\r\n&nbsp; • RC Events, Officer Events, and Volunteer events only appear on their respective calendars.<br>\r\n&nbsp; • Members can RSVP to events, and Officers can check members into events using the smartphone app.<br>"
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

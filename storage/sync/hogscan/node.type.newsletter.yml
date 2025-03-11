@@ -1,0 +1,17 @@
+uuid: 385cfd41-017d-43a9-bc0f-2af432b46f8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Newsletter
+type: newsletter
+description: "Use <em>newsletters</em> to create an annual container for PDF publications.<br>\r\n&nbsp; • You only need to create one of these records each year.<br>\r\n&nbsp; • Throughout the year, edit the existing container to upload additional PDF files for the year.<br>"
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

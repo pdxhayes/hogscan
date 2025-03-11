@@ -1,0 +1,20 @@
+uuid: 62c6dccc-4036-473e-bdcf-27a99a376069
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_app_long
+  module:
+    - user
+id: user.user.field_member_app_long
+field_name: field_member_app_long
+entity_type: user
+bundle: user
+label: member_app_long
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

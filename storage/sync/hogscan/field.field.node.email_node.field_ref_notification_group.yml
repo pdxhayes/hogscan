@@ -1,0 +1,29 @@
+uuid: e6f25340-5001-4e70-88ba-4062d383b78f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ref_notification_group
+    - node.type.email_node
+    - taxonomy.vocabulary.notification_groups
+id: node.email_node.field_ref_notification_group
+field_name: field_ref_notification_group
+entity_type: node
+bundle: email_node
+label: ref_notification_group
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      notification_groups: notification_groups
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

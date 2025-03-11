@@ -1,0 +1,46 @@
+uuid: b2488d2a-3543-4b2e-8596-e1ba1b8bdd75
+langcode: en
+status: true
+dependencies:
+  module:
+    - dexp_block_settings
+    - system
+  theme:
+    - hogscan
+third_party_settings:
+  dexp_block_settings:
+    animate: ''
+    animate_delay: 0
+    background_color: ''
+    background_image: 'file:0'
+    background_image_type: default
+    background_repeat: no-repeat
+    background_size: auto
+    background_video: ''
+    background_video_start_at: null
+    exclude_block_title: 0
+    custom_class: ''
+    custom_content_class: ''
+    custom_css: ''
+    animate_duration: '1000'
+    background_position: ''
+    background_video_controls: 0
+    background_video_mute: 0
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: hogscan_content
+theme: hogscan
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

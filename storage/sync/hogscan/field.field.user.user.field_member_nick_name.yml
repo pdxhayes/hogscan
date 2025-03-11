@@ -1,0 +1,20 @@
+uuid: 9d90e2c2-566c-4092-9a71-5bc52a5a79cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_nick_name
+  module:
+    - user
+id: user.user.field_member_nick_name
+field_name: field_member_nick_name
+entity_type: user
+bundle: user
+label: Nickname
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,53 @@
+uuid: 0a64362e-f70c-46f8-8307-412408f4726f
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcode
+    - token_filter
+name: 'CKEditor 5'
+format: ckeditor_5
+weight: 0
+filters:
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  shortcode:
+    id: shortcode
+    provider: shortcode
+    status: false
+    weight: 0
+    settings:
+      random: true
+      img: true
+      clear: true
+      dropcap: true
+      item: true
+      highlight: true
+      button: true
+      quote: true
+      link: true
+      block: true
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: true
+    weight: 0
+    settings:
+      replace_empty: false

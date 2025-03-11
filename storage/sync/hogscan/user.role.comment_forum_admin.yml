@@ -1,0 +1,27 @@
+uuid: 186f6487-a2cf-47e6-b9af-5147c659614a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+  module:
+    - actions_permissions
+    - comment
+    - file
+    - forum
+    - node
+id: comment_forum_admin
+label: 'Comment & Forum Admin'
+weight: -7
+is_admin: null
+permissions:
+  - 'administer comments'
+  - 'administer forums'
+  - 'delete any forum content'
+  - 'delete own files'
+  - 'edit any forum content'
+  - 'edit own comments'
+  - 'execute entity:publish_action comment'
+  - 'execute entity:save_action comment'
+  - 'execute entity:unpublish_action comment'
+  - 'skip comment approval'

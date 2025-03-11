@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: f5883dcf-9ac3-45a0-bb09-d66bb467b66f
+name: 'H.O.G.® Chapter Website'
+mail: admin@hogscan.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

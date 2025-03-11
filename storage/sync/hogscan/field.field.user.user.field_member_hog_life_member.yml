@@ -1,0 +1,24 @@
+uuid: 7027fb3c-508f-46d4-a429-c030d6a3a03e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_life_member
+  module:
+    - user
+id: user.user.field_member_hog_life_member
+field_name: field_member_hog_life_member
+entity_type: user
+bundle: user
+label: member_hog_life_member
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

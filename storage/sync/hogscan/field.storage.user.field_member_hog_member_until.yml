@@ -1,0 +1,24 @@
+uuid: dc6fd388-dffc-47c3-863e-159d73a0956a
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - field_permissions
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: custom
+id: user.field_member_hog_member_until
+field_name: field_member_hog_member_until
+entity_type: user
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

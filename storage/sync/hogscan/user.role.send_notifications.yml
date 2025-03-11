@@ -1,0 +1,16 @@
+uuid: ebaf48da-7d48-4f03-8bae-eaee55e0eeb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - file
+    - node
+id: send_notifications
+label: 'Send Notifications'
+weight: -1
+is_admin: null
+permissions:
+  - 'delete own files'
+  - 'skip comment approval'
+  - 'view own unpublished content'

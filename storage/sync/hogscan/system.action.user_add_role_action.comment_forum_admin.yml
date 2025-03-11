@@ -1,0 +1,14 @@
+uuid: d0959f8d-3b8d-4495-8ba1-8bb24f8b309a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.comment_forum_admin
+  module:
+    - user
+id: user_add_role_action.comment_forum_admin
+label: 'Add the Comment &amp; Forum Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: comment_forum_admin

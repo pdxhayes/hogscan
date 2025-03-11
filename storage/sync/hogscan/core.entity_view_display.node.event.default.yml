@@ -1,0 +1,150 @@
+uuid: 63a49da2-358f-4b19-94ee-f9be27c242ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date_range
+    - field.field.node.event.field_event_gpx_files
+    - field.field.node.event.field_event_location_end
+    - field.field.node.event.field_event_location_start
+    - field.field.node.event.field_event_mileage
+    - field.field.node.event.field_event_points
+    - field.field.node.event.field_event_ref_team_coordinator
+    - field.field.node.event.field_event_ref_team_lead_rc
+    - field.field.node.event.field_event_ref_team_mid_rc
+    - field.field.node.event.field_event_ref_team_sweep_rc
+    - field.field.node.event.field_event_ref_term_event_type
+    - node.type.event
+  module:
+    - address
+    - datetime_range
+    - hs_gpx_map
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_event_date_range:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_event_gpx_files:
+    type: hs_gpx_map
+    label: above
+    settings:
+      width: 100%
+      height: 420px
+      zoom: '8'
+      min_zoom: '0'
+      max_zoom: '0'
+      controltype: default
+      mtc: standard
+      pancontrol: '1'
+      maptype: map
+      use_description_as_link_text: '1'
+      scale: 0
+      overview: 0
+      overview_opened: 0
+      scrollwheel: 0
+      draggable: 0
+      streetview_show: 0
+      baselayers_map: 1
+      baselayers_satellite: 1
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_event_location_end:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_event_location_start:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_event_mileage:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_event_points:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_event_ref_team_coordinator:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_event_ref_team_lead_rc:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_event_ref_team_mid_rc:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_event_ref_team_sweep_rc:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_event_ref_term_event_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

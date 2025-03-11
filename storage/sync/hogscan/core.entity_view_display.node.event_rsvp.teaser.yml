@@ -1,0 +1,34 @@
+uuid: f4f2219c-a82e-4a83-94ca-0c52036d38de
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event_rsvp.body
+    - field.field.node.event_rsvp.field_ref_event
+    - field.field.node.event_rsvp.field_ref_user
+    - node.type.event_rsvp
+  module:
+    - text
+    - user
+id: node.event_rsvp.teaser
+targetEntityType: node
+bundle: event_rsvp
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ref_event: true
+  field_ref_user: true

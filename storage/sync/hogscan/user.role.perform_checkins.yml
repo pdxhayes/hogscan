@@ -1,0 +1,18 @@
+uuid: fd3e77db-d3cd-4298-88d0-4ddc60576cc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_checkin
+  module:
+    - comment
+    - file
+    - node
+id: perform_checkins
+label: 'Perform Check-ins'
+weight: -8
+is_admin: null
+permissions:
+  - 'delete own files'
+  - 'edit any event_checkin content'
+  - 'skip comment approval'

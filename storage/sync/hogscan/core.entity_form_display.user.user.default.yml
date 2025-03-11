@@ -1,0 +1,492 @@
+uuid: 992fe06c-6c9e-4058-90c8-5f109bec2126
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_hogscan_migrate_uid
+    - field.field.user.user.field_member_address
+    - field.field.user.user.field_member_admin_notes
+    - field.field.user.user.field_member_app_lat
+    - field.field.user.user.field_member_app_long
+    - field.field.user.user.field_member_app_platform
+    - field.field.user.user.field_member_app_push_token
+    - field.field.user.user.field_member_email_opt_in
+    - field.field.user.user.field_member_first_name
+    - field.field.user.user.field_member_gen_card
+    - field.field.user.user.field_member_hog_first_name
+    - field.field.user.user.field_member_hog_id
+    - field.field.user.user.field_member_hog_last_name
+    - field.field.user.user.field_member_hog_life_member
+    - field.field.user.user.field_member_hog_member_since
+    - field.field.user.user.field_member_hog_member_type
+    - field.field.user.user.field_member_hog_member_until
+    - field.field.user.user.field_member_hog_middle_name
+    - field.field.user.user.field_member_hog_mileage_2018
+    - field.field.user.user.field_member_hog_mileage_2019
+    - field.field.user.user.field_member_hog_mileage_2020
+    - field.field.user.user.field_member_hog_mileage_2021
+    - field.field.user.user.field_member_hog_mileage_2022
+    - field.field.user.user.field_member_hog_mileage_life
+    - field.field.user.user.field_member_hog_officer_role
+    - field.field.user.user.field_member_hog_status
+    - field.field.user.user.field_member_ice_name
+    - field.field.user.user.field_member_ice_phone
+    - field.field.user.user.field_member_last_name
+    - field.field.user.user.field_member_nick_name
+    - field.field.user.user.field_member_notification_opt_in
+    - field.field.user.user.field_member_phone
+    - field.field.user.user.field_member_points
+    - field.field.user.user.field_member_qr
+    - field.field.user.user.field_member_release_until
+    - field.field.user.user.field_member_send_welcome_email
+    - field.field.user.user.field_member_since
+    - field.field.user.user.field_member_source
+    - field.field.user.user.field_member_until
+    - field.field.user.user.field_ref_notification_groups
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - address
+    - datetime
+    - field_group
+    - image
+    - user
+third_party_settings:
+  field_group:
+    group_communication_groups:
+      children:
+        - field_ref_notification_groups
+      label: 'Communication Groups'
+      region: content
+      parent_name: ''
+      weight: 3
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: 'Add members to communication groups for email, text messaging and push notifications.'
+        required_fields: false
+    group_administrative_notes:
+      children:
+        - field_member_admin_notes
+      label: 'Administrative Notes'
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+    group_member_fields:
+      children:
+        - field_member_email_opt_in
+        - field_member_notification_opt_in
+        - field_member_first_name
+        - field_member_nick_name
+        - field_member_last_name
+        - field_member_phone
+        - field_member_address
+        - field_member_ice_name
+        - field_member_ice_phone
+        - user_picture
+      label: 'Member Fields'
+      region: content
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_chapter_fields:
+      children:
+        - field_member_since
+        - field_member_until
+        - field_member_release_until
+        - field_member_points
+      label: 'Chapter Fields'
+      region: content
+      parent_name: ''
+      weight: 6
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+    group_hog_scan_app_fields:
+      children:
+        - field_member_app_platform
+        - field_member_app_push_token
+        - field_member_app_long
+        - field_member_app_lat
+        - field_member_qr
+        - field_hogscan_migrate_uid
+      label: 'HOG[SCAN] App Fields'
+      region: content
+      parent_name: ''
+      weight: 7
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+    group_hog_national_fields:
+      children:
+        - field_member_hog_first_name
+        - field_member_hog_middle_name
+        - field_member_hog_last_name
+        - field_member_hog_status
+        - field_member_hog_member_type
+        - field_member_hog_member_since
+        - field_member_hog_member_until
+        - field_member_hog_life_member
+        - field_member_hog_officer_role
+        - field_member_hog_mileage_life
+        - field_member_hog_mileage_2018
+        - field_member_hog_mileage_2019
+        - field_member_hog_mileage_2020
+        - field_member_hog_mileage_2021
+        - field_member_hog_mileage_2022
+      label: 'H.O.G. National Fields'
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        open: false
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+  field_hogscan_migrate_uid:
+    type: string_textfield
+    weight: 35
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_address:
+    type: address_default
+    weight: 41
+    region: content
+    settings:
+      wrapper_type: details
+    third_party_settings: {  }
+  field_member_admin_notes:
+    type: string_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_app_lat:
+    type: string_textfield
+    weight: 33
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_app_long:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_app_platform:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_app_push_token:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_email_opt_in:
+    type: boolean_checkbox
+    weight: 35
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_first_name:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_gen_card:
+    type: boolean_checkbox
+    weight: 9
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_hog_first_name:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_id:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_last_name:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_life_member:
+    type: boolean_checkbox
+    weight: 37
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_hog_member_since:
+    type: datetime_default
+    weight: 35
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_hog_member_type:
+    type: options_select
+    weight: 34
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_hog_member_until:
+    type: datetime_default
+    weight: 36
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_hog_middle_name:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_2018:
+    type: number
+    weight: 40
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_2019:
+    type: number
+    weight: 41
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_2020:
+    type: number
+    weight: 42
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_2021:
+    type: number
+    weight: 43
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_2022:
+    type: number
+    weight: 44
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_mileage_life:
+    type: number
+    weight: 39
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_officer_role:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_hog_status:
+    type: options_select
+    weight: 33
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_ice_name:
+    type: string_textfield
+    weight: 42
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_ice_phone:
+    type: string_textfield
+    weight: 43
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_last_name:
+    type: string_textfield
+    weight: 39
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_nick_name:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_notification_opt_in:
+    type: boolean_checkbox
+    weight: 36
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_phone:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_points:
+    type: number
+    weight: 24
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_member_qr:
+    type: image_image
+    weight: 34
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_member_release_until:
+    type: datetime_default
+    weight: 23
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_send_welcome_email:
+    type: boolean_checkbox
+    weight: 10
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_member_since:
+    type: datetime_default
+    weight: 21
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_source:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_member_until:
+    type: datetime_default
+    weight: 22
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ref_notification_groups:
+    type: options_buttons
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: 44
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  language: true
+  path: true
+  timezone: true

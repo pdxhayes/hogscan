@@ -1,0 +1,14 @@
+uuid: 0a3c5e8e-6bf9-4a0d-ab22-845fa5de4b5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.perform_checkins
+  module:
+    - user
+id: user_remove_role_action.perform_checkins
+label: 'Remove the Perform Check-ins role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: perform_checkins

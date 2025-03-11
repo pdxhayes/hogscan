@@ -1,0 +1,17 @@
+uuid: 40fb2f63-baa8-42e1-a11a-03abcc3082b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Email Campaign'
+type: email_node
+description: 'An email campaign to send to a notification group.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: fa9171a7-392d-4644-8dbe-0ec07cff0e64
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: Webmaster
+description: 'Webmaster IMCE Profile'
+conf:
+  extensions: ''
+  maxsize: null
+  quota: null
+  maxwidth: null
+  maxheight: null
+  replace: 0
+  thumbnail_style: ''
+  thumbnail_grid_style: false
+  ignore_usage: false
+  folders:
+    -
+      path: '*'
+      permissions:
+        all: true

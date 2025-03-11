@@ -1,0 +1,38 @@
+uuid: 9daa9888-ecf8-416d-a64a-9ea65a180e95
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_checkin
+  module:
+    - actions_permissions
+    - comment
+    - file
+    - node
+    - role_delegation
+id: member_admin
+label: 'Member Admin *'
+weight: 2
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'assign blog_admin role'
+  - 'assign chapter_challenge_admin role'
+  - 'assign comment_forum_admin role'
+  - 'assign content_admin role'
+  - 'assign event_admin role'
+  - 'assign gallery_admin role'
+  - 'assign member_admin role'
+  - 'assign member_read role'
+  - 'assign perform_checkins role'
+  - 'assign send_email_campaigns role'
+  - 'assign send_notifications role'
+  - 'delete own files'
+  - 'edit any event_checkin content'
+  - 'execute entity:unpublish_action comment'
+  - 'execute entity:unpublish_action node'
+  - 'execute user_block_user_action user'
+  - 'execute user_unblock_user_action user'
+  - 'skip comment approval'
+  - 'view own unpublished content'
+  - 'view user email addresses'

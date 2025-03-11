@@ -1,0 +1,22 @@
+uuid: 3308ca4e-7e6f-4049-b7ba-61f6c362656d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: rsvp
+label: RSVP
+type: 'canonical_entities:node'
+pattern: 'event/rsvp/[node:nid]'
+selection_criteria:
+  ceae7bb4-89e5-4620-a6d1-9d10fe167628:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ceae7bb4-89e5-4620-a6d1-9d10fe167628
+    context_mapping:
+      node: node
+    bundles:
+      event_rsvp: event_rsvp
+selection_logic: and
+weight: -2
+relationships: {  }

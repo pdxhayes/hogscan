@@ -1,0 +1,26 @@
+uuid: 05ea43c6-db6f-4a46-ba56-34c2848ac6de
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.email_html
+    - node.type.email_node
+  module:
+    - comment
+    - file
+    - filter
+    - node
+id: send_email_campaigns
+label: 'Send Email Campaigns'
+weight: 0
+is_admin: null
+permissions:
+  - 'create email_node content'
+  - 'delete email_node revisions'
+  - 'delete own files'
+  - 'edit any email_node content'
+  - 'revert email_node revisions'
+  - 'skip comment approval'
+  - 'use text format email_html'
+  - 'view email_node revisions'
+  - 'view own unpublished content'

@@ -1,0 +1,14 @@
+uuid: 81e2f7c8-9404-46f4-989a-e35f7f45e2c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.send_notifications
+  module:
+    - user
+id: user_add_role_action.send_notifications
+label: 'Add the Send Notifications role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: send_notifications

@@ -1,0 +1,32 @@
+uuid: 1c6e87a6-4345-4039-a20b-3d7f697640eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chapter_challenge.body
+    - field.field.node.chapter_challenge.field_challenge_locations
+    - node.type.chapter_challenge
+  module:
+    - text
+    - user
+id: node.chapter_challenge.teaser
+targetEntityType: node
+bundle: chapter_challenge
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_challenge_locations: true

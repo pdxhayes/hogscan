@@ -1,0 +1,23 @@
+uuid: a6267a19-7f25-4a8b-9b07-069b9a21a155
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallery
+  module:
+    - comment
+    - file
+    - node
+id: gallery_admin
+label: 'Gallery Admin'
+weight: -5
+is_admin: null
+permissions:
+  - 'create gallery content'
+  - 'delete gallery revisions'
+  - 'delete own files'
+  - 'edit any gallery content'
+  - 'revert gallery revisions'
+  - 'skip comment approval'
+  - 'view gallery revisions'
+  - 'view own unpublished content'

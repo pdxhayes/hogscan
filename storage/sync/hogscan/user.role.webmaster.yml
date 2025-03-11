@@ -1,0 +1,142 @@
+uuid: abbe2658-c698-4f95-a92b-d75769558b53
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.ckeditor_5
+    - filter.format.email_html
+    - filter.format.full_html
+    - node.type.article
+    - node.type.chapter_challenge
+    - node.type.email_node
+    - node.type.event
+    - node.type.event_checkin
+    - node.type.event_rsvp
+    - node.type.forum
+    - node.type.gallery
+    - node.type.newsletter
+    - node.type.page
+    - node.type.team
+    - taxonomy.vocabulary.event_types
+    - taxonomy.vocabulary.forums
+    - taxonomy.vocabulary.notification_groups
+  module:
+    - actions_permissions
+    - block
+    - block_content
+    - comment
+    - contextual
+    - file
+    - filter
+    - forum
+    - node
+    - nodeaccess
+    - role_delegation
+    - system
+    - taxonomy
+id: webmaster
+label: 'Webmaster *'
+weight: 3
+is_admin: null
+permissions:
+  - 'access block library'
+  - 'access contextual links'
+  - 'access user profiles'
+  - 'administer block content'
+  - 'administer block types'
+  - 'administer blocks'
+  - 'administer comments'
+  - 'administer forums'
+  - 'administer menu'
+  - 'administer themes'
+  - 'assign blog_admin role'
+  - 'assign chapter_challenge_admin role'
+  - 'assign comment_forum_admin role'
+  - 'assign content_admin role'
+  - 'assign event_admin role'
+  - 'assign gallery_admin role'
+  - 'assign member_admin role'
+  - 'assign member_read role'
+  - 'assign perform_checkins role'
+  - 'assign send_email_campaigns role'
+  - 'assign send_notifications role'
+  - 'assign webmaster role'
+  - 'create article content'
+  - 'create chapter_challenge content'
+  - 'create email_node content'
+  - 'create event content'
+  - 'create gallery content'
+  - 'create newsletter content'
+  - 'create page content'
+  - 'create team content'
+  - 'create terms in event_types'
+  - 'create terms in forums'
+  - 'create terms in notification_groups'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any chapter_challenge content'
+  - 'delete any email_node content'
+  - 'delete any event content'
+  - 'delete any event_checkin content'
+  - 'delete any event_rsvp content'
+  - 'delete any forum content'
+  - 'delete any gallery content'
+  - 'delete any newsletter content'
+  - 'delete any page content'
+  - 'delete any team content'
+  - 'delete article revisions'
+  - 'delete chapter_challenge revisions'
+  - 'delete email_node revisions'
+  - 'delete event revisions'
+  - 'delete forum revisions'
+  - 'delete gallery revisions'
+  - 'delete newsletter revisions'
+  - 'delete own files'
+  - 'delete page revisions'
+  - 'delete team revisions'
+  - 'delete terms in event_types'
+  - 'delete terms in forums'
+  - 'delete terms in notification_groups'
+  - 'edit any chapter_challenge content'
+  - 'edit any email_node content'
+  - 'edit any event content'
+  - 'edit any event_checkin content'
+  - 'edit any forum content'
+  - 'edit any gallery content'
+  - 'edit any newsletter content'
+  - 'edit any page content'
+  - 'edit any team content'
+  - 'edit terms in event_types'
+  - 'edit terms in forums'
+  - 'edit terms in notification_groups'
+  - 'execute entity:publish_action comment'
+  - 'execute entity:publish_action node'
+  - 'execute entity:unpublish_action comment'
+  - 'execute entity:unpublish_action node'
+  - 'execute user_block_user_action user'
+  - 'execute user_unblock_user_action user'
+  - 'grant node permissions'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert chapter_challenge revisions'
+  - 'revert email_node revisions'
+  - 'revert event revisions'
+  - 'revert gallery revisions'
+  - 'revert newsletter revisions'
+  - 'revert page revisions'
+  - 'revert team revisions'
+  - 'skip comment approval'
+  - 'use text format ckeditor_5'
+  - 'use text format email_html'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view chapter_challenge revisions'
+  - 'view email_node revisions'
+  - 'view event revisions'
+  - 'view gallery revisions'
+  - 'view newsletter revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view team revisions'
+  - 'view user email addresses'

@@ -1,0 +1,18 @@
+uuid: 8e946acf-36a7-4a34-82f6-ea84115e721d
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - file
+    - node
+id: member_read
+label: 'Member Read *'
+weight: 1
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'delete own files'
+  - 'skip comment approval'
+  - 'view own unpublished content'
+  - 'view user email addresses'

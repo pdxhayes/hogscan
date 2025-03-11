@@ -1,0 +1,14 @@
+uuid: 537664a0-20e2-44ed-8aae-578910191c94
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.member_read
+  module:
+    - user
+id: user_remove_role_action.member_read
+label: 'Remove the Member Read * role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: member_read

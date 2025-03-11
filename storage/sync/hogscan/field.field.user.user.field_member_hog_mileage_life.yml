@@ -1,0 +1,24 @@
+uuid: f4f9d6c3-9099-4571-b220-f5766a298c79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_member_hog_mileage_life
+  module:
+    - user
+id: user.user.field_member_hog_mileage_life
+field_name: field_member_hog_mileage_life
+entity_type: user
+bundle: user
+label: member_hog_mileage_life
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
